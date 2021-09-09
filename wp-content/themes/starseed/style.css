@@ -1658,6 +1658,10 @@ footer {
     padding: 0 0 1rem 0;
 }
 
+.line-height {
+    line-height: 2.5;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {

@@ -40,7 +40,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
             </h1>
         </div>
 
-        <div class="mt-4">
+        <div class="mt-4 line-height">
             <?php 
             the_archive_description();
             //echo get_the_content();?>
