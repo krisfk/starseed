@@ -36,10 +36,10 @@ exit;
 <img class="star4 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
 
 
-<div class="inner-container  mt-5 text-center">
+<div class="inner-container  mt-5 text-center fadein-ele">
     <div class="row align-items-center justify-content-center gx-5">
 
-        <div class="col-6 txt-top  fadein-ele">
+        <div class="col-6 txt-top  ">
             <h1>
                 <?php echo get_the_title();?>
             </h1>
