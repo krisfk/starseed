@@ -38,7 +38,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 <img class="star10" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
-<div class="inner-container pb-6 mt-5">
+<div class="inner-container pb-6 mt-5 line-height">
     <div class="row align-items-top justify-content-center gx-5 mobile-column-reverse">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top" id="form-top">
