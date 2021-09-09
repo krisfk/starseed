@@ -27,19 +27,19 @@ exit;
 
 
 
-<img class="star0" src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
+<img class="star0 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
 
-<img class="star2" src="<?php echo get_template_directory_uri();?>/assets/images/star2.png" alt="">
+<img class="star2 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star2.png" alt="">
 
-<img class="star3" src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
+<img class="star3 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
 
-<img class="star4" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
+<img class="star4 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
 
 
 <div class="inner-container  mt-5 text-center">
     <div class="row align-items-center justify-content-center gx-5">
 
-        <div class="col-6 txt-top ">
+        <div class="col-6 txt-top  fadein-ele">
             <h1>
                 <?php echo get_the_title();?>
             </h1>

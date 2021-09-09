@@ -26,10 +26,10 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 }
 ?>
 
-<img class="star7" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-<img class="star8" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-<img class="star9" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-<img class="star10" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+<img class="star7 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
+<img class="star8 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
+<img class="star9 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+<img class="star10 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 <?php
 $id = get_the_id();
@@ -43,7 +43,7 @@ $category_img = z_taxonomy_image_url($term_id);
 <div class="inner-container pb-6 mt-5">
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
             <h1><?php echo get_the_title();?>
 
             </h1>
@@ -65,7 +65,7 @@ $category_img = z_taxonomy_image_url($term_id);
 
 
         </div>
-        <div class="col-lg-3 col-md-12 col-sm-12 col-12  position-relative">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12  position-relative  faderight-ele">
             <img class="post-img w-100"
                 src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : $category_img;?>" alt="">
 
