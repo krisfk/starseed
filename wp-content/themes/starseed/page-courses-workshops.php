@@ -27,7 +27,7 @@ get_header(); ?>
 <div class="inner-container  mt-5 text-center">
     <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
-        <div class="col-6 txt-top ">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
             <h1>學院課程/工作坊
             </h1>
         </div>

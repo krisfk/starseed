@@ -2031,10 +2031,10 @@ footer {
         margin: 0 auto 5rem auto;
     }
     .main-container .text-end {
-        text-align: justify !important;
+        /* text-align: justify !important; */
     }
     .main-container .text-start {
-        text-align: justify !important;
+        /* text-align: justify !important; */
     }
 }
 
