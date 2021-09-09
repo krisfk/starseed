@@ -18,14 +18,14 @@ get_header(); ?>
 
 
 
-<img class="star7" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-<img class="star8" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-<img class="star9" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-<img class="star10" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+<img class="star7 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
+<img class="star8 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
+<img class="star9 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+<img class="star10 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
 <div class="inner-container container pb-6 mt-5 text-center">
-    <div class="row align-items-center justify-content-center gx-5">
+    <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
         <?php echo get_the_content();?>
 

@@ -19,24 +19,24 @@ get_header(); ?>
 
 
 
-<img class="star0" src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
+<img class="star0 fadein-ele " src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
 
-<img class="star2" src="<?php echo get_template_directory_uri();?>/assets/images/star2.png" alt="">
+<img class="star2 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star2.png" alt="">
 
-<img class="star3" src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
+<img class="star3 fadein-ele " src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
 
-<img class="star4" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
+<img class="star4 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt="">
 
 
 <div class="row align-items-center mt-0 mobile-column-reverse ">
 
-    <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top content-txt">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top content-txt fadeleft-ele">
         <!-- <h1>星際種子學院</h1>
         星際種子學院是一個幫助光行者和靈修人士喚醒內心的星際種子的平台。這裡是引導每一個靈魂回家的道路；在這裡，你會更深入認識身心靈的世界，並且在這個世界盡情發光發亮！ -->
 
         <?php echo get_field('content_1');?>
     </div>
-    <div class="col-lg-6 col-md-12 col-sm-12 col-12 "><img class="humans-img"
+    <div class="col-lg-6 col-md-12 col-sm-12 col-12 faderight-ele"><img class="humans-img "
             src="<?php echo get_template_directory_uri();?>/assets/images/humans.png" alt="">
     </div>
 </div>

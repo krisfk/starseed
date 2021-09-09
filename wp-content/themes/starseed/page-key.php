@@ -32,16 +32,16 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 <img class="star3" src="<?php echo get_template_directory_uri();?>/assets/images/star3.png" alt="">
 
 <img class="star4" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt=""> -->
-<img class="star7" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-<img class="star8" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-<img class="star9" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-<img class="star10" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+<img class="star7 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
+<img class="star8 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
+<img class="star9 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+<img class="star10 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
 <div class="inner-container pb-6 mt-5 line-height">
     <div class="row align-items-top justify-content-center gx-5 mobile-column-reverse">
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top" id="form-top">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top fadeleft-ele" id="form-top">
             <h1>揚升之鑰
             </h1>
             <?php
@@ -99,7 +99,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             echo do_shortcode( '[pms-register]' );
             ?>
         </div>
-        <div class="col-lg-3 col-md-12 col-sm-12 col-12 "><img class="key-img "
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12 faderight-ele"><img class="key-img "
                 src="<?php echo get_template_directory_uri();?>/assets/images/key-img.png" alt="">
         </div>
     </div>
