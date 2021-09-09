@@ -484,8 +484,8 @@ a.add-to-cart-btn:hover {
     mix-blend-mode: overlay;
     position: absolute;
     width: 800px !important;
-    top: -400px;
-    left: -170px;
+    top: -465px;
+    left: -190px;
 }
 
 .container.inner-container {
@@ -1744,7 +1744,7 @@ footer {
         /*         background-size: 100% auto; */
     }
     .bud2-img:first-child {
-        display: none;
+        /* display: none; */
     }
     .woocommerce #respond input#submit,
     .woocommerce a.button,
