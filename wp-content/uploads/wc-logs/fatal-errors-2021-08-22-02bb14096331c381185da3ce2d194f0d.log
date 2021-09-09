@@ -1,0 +1,30 @@
+2021-08-22T15:14:56+00:00 CRITICAL Uncaught Error: Call to undefined function c_format_decimal() in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php:32
+Stack trace:
+#0 /Applications/MAMP/htdocs/starseed/wp-includes/template.php(772): require()
+#1 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#3 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#6 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(555): do_short in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php on line 32
+
+2021-08-22T15:14:58+00:00 CRITICAL Uncaught Error: Call to undefined function c_format_decimal() in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php:32
+Stack trace:
+#0 /Applications/MAMP/htdocs/starseed/wp-includes/template.php(772): require()
+#1 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#3 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#6 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(555): do_short in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php on line 32
+
+2021-08-22T15:17:11+00:00 CRITICAL Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php:40
+Stack trace:
+#0 /Applications/MAMP/htdocs/starseed/wp-includes/template.php(772): require()
+#1 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#3 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Applications/MAMP/htdocs/starseed/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#6 /Applications/MAMP/htdocs/starseed/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php(555): do_shortcode('[product_ in /Applications/MAMP/htdocs/starseed/wp-content/themes/starseed/woocommerce/content-single-product.php on line 40
+

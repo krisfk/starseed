@@ -1,0 +1,9 @@
+.pms-subscription-plan input.small {
+    width: 10% !important;
+    min-width: 80px;
+}
+
+.pms-field .pms_pwyw_pricing {
+    display: inline-block;
+    margin-left: 5px;
+}
