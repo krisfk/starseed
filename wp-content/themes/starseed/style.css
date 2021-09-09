@@ -727,7 +727,7 @@ a.add-to-cart-btn:hover {
 .single-product .container {
     max-width: 1920px !important;
     padding: 0;
-    line-height: 2.5;
+    /* line-height: 2.5; */
 }
 
 .single-product .main-container .container {}
