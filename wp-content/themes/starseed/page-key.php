@@ -115,7 +115,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             <div class="about-div">
                 <div class="container">
 
-                    <div class="row align-items-center g-0">
+                    <div class="row align-items-center g-0 line-height">
                         <div class="col-12 text-center">
                             <!-- 現在人類正在經歷非常重要的覺醒時期，越來越多靈魂開始回憶起自己的內在自性，認識到自己的靈魂的本質。很多人都希望可以進一步提升自己的意識，不斷找尋適合自己的靈性課程以及療法。可是，上課的日子最多只是數天，比較長的也只是數個月；然而，靈性的修行和意識的提升應該是長期且持續地進行的，因此Bosco就創立了這個「揚升之鑰」持續學習平台，讓各位正在覺醒的靈魂可以在這個平台上持續地學習，定期吸收知識和透過冥想下載宇宙能量，就像一個24小時的靈性課程一樣，讓每一個靈魂都可以在生活中善用這些靈性能量，進一步提升意識和成為更好的自己！
                             <br> <br>
@@ -138,7 +138,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 <div class="container mt-5  position-relative">
 
 
-    <div class="row align-items-center  position-relative mobile-column-reverse">
+    <div class="row align-items-center  position-relative mobile-column-reverse line-height">
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end">
