@@ -484,8 +484,8 @@ a.add-to-cart-btn:hover {
     mix-blend-mode: overlay;
     position: absolute;
     width: 800px !important;
-    top: -465px;
-    left: -190px;
+    top: -505px;
+    left: -195px;
 }
 
 .container.inner-container {
