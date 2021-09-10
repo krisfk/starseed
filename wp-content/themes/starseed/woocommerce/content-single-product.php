@@ -56,7 +56,7 @@ global $product;
                 <?php echo wc_format_decimal( 	$product->get_regular_price(),2);?>
 
             </div>
-            <div class="mt-4">
+            <div class="mt-4 mb-4">
                 <?php
 						echo $product->post->post_excerpt;
 					?>
