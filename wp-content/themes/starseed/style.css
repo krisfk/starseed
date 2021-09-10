@@ -1849,6 +1849,7 @@ footer {
 @media only screen and (max-width: 1200px) {
     .main-container {
         /* background: none; */
+        background: url(./assets/images/bg.jpg);
     }
     .bg-img {
         display: block;
