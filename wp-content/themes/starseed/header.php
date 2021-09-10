@@ -53,7 +53,7 @@
         <?php //get_template_part( 'template-parts/header/site-header' ); ?>
 
 
-        <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg" alt="">
+        <!-- <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg" alt=""> -->
 
         <div id="content" class="site-content">
             <div id="primary" class="content-area">

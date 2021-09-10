@@ -130,8 +130,8 @@ body {
 }
 
 .main-container {
-    background: url(./assets/images/bg.jpg) #000;
-    background-size: cover;
+    background: url(./assets/images/bg.jpg);
+    background-size: 100% auto;
     /* background-size: 100% 100%; */
     min-height: 100vh;
     max-width: 1920px;
@@ -1848,7 +1848,7 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     .main-container {
-        background: none;
+        /* background: none; */
     }
     .bg-img {
         display: block;
