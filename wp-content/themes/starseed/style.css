@@ -1930,6 +1930,7 @@ footer {
     }
     .soul-healing-icon-a {
         font-size: 1.2rem;
+        line-height: 1.5;
     }
     .soul-healing-content {
         text-align: justify;
