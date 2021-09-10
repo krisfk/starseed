@@ -2004,7 +2004,7 @@ footer {
     }
     .single-product img.bg-img {
         width: 100%;
-        max-width: auto;
+        max-width: initial;
         height: auto;
         margin: 0 auto;
         display: block;
