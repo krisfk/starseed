@@ -60,6 +60,8 @@
 
                     <div class="main-container mx-auto">
 
+                        <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
+                            alt="">
 
                         <div class="container position-relative pt-3">
 
