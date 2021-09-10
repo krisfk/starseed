@@ -742,6 +742,11 @@ a.add-to-cart-btn:hover {
     padding: 0 12px;
 }
 
+.top-menu-container {
+    position: relative;
+    z-index: 10000;
+}
+
 .post-navigation {
     display: none;
 }
@@ -1638,7 +1643,7 @@ input[type='submit']:hover,
     position: fixed;
     top: 2.4rem;
     right: 1rem;
-    z-index: 2000;
+    z-index: 20000;
 }
 
 .mobile-logo-li {
@@ -1957,6 +1962,8 @@ footer {
     }
     .mobile-column-reverse {
         flex-direction: column-reverse;
+        position: relative;
+        z-index: 1000;
     }
     .sitting-img {
         max-width: 360px;
