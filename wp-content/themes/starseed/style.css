@@ -2002,6 +2002,13 @@ footer {
         margin: 0 auto;
         display: block;
     }
+    .single-product img.bg-img {
+        width: 100%;
+        max-width: auto;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
     .col-12 {
         position: relative;
         z-index: 100;
