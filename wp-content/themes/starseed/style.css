@@ -1826,6 +1826,9 @@ footer {
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
+    .main-container {
+        background: none;
+    }
     .bg-img {
         display: block;
         position: fixed;
@@ -2018,6 +2021,7 @@ footer {
         display: block;
         background: #fff;
         color: #4e1458;
+        line-height: 1;
         padding: 10px 25px;
         text-decoration: none;
         border-radius: 20px;
