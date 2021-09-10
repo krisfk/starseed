@@ -1785,6 +1785,15 @@ footer {
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
+    .main-container {
+        background: url(./assets/images/bg.jpg);
+        background-size: cover;
+        background-size: 100% auto;
+        min-height: 100vh;
+        max-width: 1920px;
+        overflow: hidden;
+        padding-bottom: 5rem;
+    }
     .top-menu-ul {
         /* display: none; */
     }
