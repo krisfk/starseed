@@ -52,6 +52,9 @@
 
         <?php //get_template_part( 'template-parts/header/site-header' ); ?>
 
+
+        <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg" alt="">
+
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main" role="main">
@@ -60,9 +63,10 @@
 
                     <div class="main-container mx-auto">
 
-                        <img class="bg-img" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
-                            alt="">
-
+                        <!-- <img class="bg-img-2" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
+                            alt=""> -->
+                        <!-- <img class="bg-img-3" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
+                            alt=""> -->
                         <div class="container position-relative pt-3">
 
                             <div class="top-menu-container mb-lg-0 mb-md-2 mb-sm-2 mb-2  ">
