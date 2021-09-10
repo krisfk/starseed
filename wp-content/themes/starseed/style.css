@@ -1953,9 +1953,9 @@ footer {
     }
     .bud2-img:first-child {
         /* display: none; */
-        background: rgb(0 0 0);
+        background: rgb(27 15 45 / 60%);
         border-radius: 75px;
-        box-shadow: 0 0 15px 3px #010101;
+        box-shadow: 0 0 15px 3px #502946;
     }
     .woocommerce #respond input#submit,
     .woocommerce a.button,
