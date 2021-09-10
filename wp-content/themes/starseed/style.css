@@ -1850,6 +1850,7 @@ footer {
     .main-container {
         /* background: none; */
         background: url(./assets/images/bg.jpg);
+        background-size: 100% auto;
     }
     .bg-img {
         display: block;
