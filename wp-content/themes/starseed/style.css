@@ -1823,6 +1823,26 @@ footer {
     z-index: -300;
 } */
 
+.cart-product-page {
+    text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: block;
+    width: 70px;
+    height: 70px;
+    z-index: 1000;
+    background: rgb(82 60 109 / 0.8);
+    border-radius: 20px;
+}
+
+.cart-product-page img {
+    position: relative;
+    top: 30px;
+    left: -3px;
+    transform: translate(0, -50%);
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
