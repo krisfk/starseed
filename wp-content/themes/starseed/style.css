@@ -276,6 +276,7 @@ body {
     border-radius: 20px;
     margin: 1rem 0 0 0;
     transition: 0.2s all;
+    line-height: 1;
 }
 
 .know-more-btn2 {
