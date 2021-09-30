@@ -67,7 +67,7 @@
                             alt=""> -->
                         <!-- <img class="bg-img-3" src="<?php echo get_template_directory_uri();?>/assets/images/bg.jpg"
                             alt=""> -->
-                        <div class="container position-relative pt-3 ps-3 pe-3">
+                        <div class="container position-relative pt-3 ">
 
                             <div class="top-menu-container mb-lg-0 mb-md-2 mb-sm-2 mb-2  ">
 
