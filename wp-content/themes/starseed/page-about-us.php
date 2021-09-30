@@ -24,11 +24,13 @@ get_header(); ?>
 <img class="star10 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
-<div class="inner-container container pb-6 mt-5 text-center">
-    <div class="row align-items-center justify-content-center gx-5 fadein-ele">
-        fff
-        <?php echo get_the_content();?>
+<div class="container">
+    <div class="inner-container container pb-6 mt-5 text-center">
+        <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
+            <?php echo get_the_content();?>
+
+        </div>
     </div>
 </div>
 
