@@ -2117,6 +2117,7 @@ footer {
     }
     .about-div .content-txt-div {
         text-align: justify !important;
+        padding: 0 12px;
     }
     .content-txt-div.text-start {
         text-align: justify !important;
