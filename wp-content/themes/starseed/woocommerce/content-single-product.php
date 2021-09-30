@@ -173,7 +173,7 @@ if( have_rows('content_sections') )
                             <?php
 }
 ?>
-                            <div class="mt-4 text-start">
+                            <div class="mt-4 text-start content-txt-div">
                                 <?php echo $content;?>
                             </div>
 
