@@ -93,7 +93,7 @@ if (have_posts()) {
                     ?>
                 </h2>
 
-                <div class="content-txt-div">
+                <div class="content-txt-div p-0">
                     <?php 
                      echo get_the_content();
                      ?>
