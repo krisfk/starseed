@@ -47,7 +47,7 @@ $category_img = z_taxonomy_image_url($term_id);
             <h1><?php echo get_the_title();?>
 
             </h1>
-            <div class="mt-4 mb-4">
+            <div class="mt-4 mb-4 content-txt-div">
                 <!--   -->
                 <?php //echo do_shortcode('[pms-restrict]'); ?>
                 <!-- [pms-restrict] -->
