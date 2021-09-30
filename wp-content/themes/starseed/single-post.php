@@ -103,7 +103,7 @@ if( have_rows('content_sections') )
 }
 ?>
 
-    <div class="mt-3 text-start mobile-align">
+    <div class="mt-3 text-start mobile-align content-txt-div">
 
         <?php echo $content;?>
     </div>
