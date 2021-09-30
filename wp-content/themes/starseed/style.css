@@ -1924,6 +1924,9 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+    .content-txt-div {
+        padding: 0 12px;
+    }
     .entry-row-bg {
         /* background-repeat: no-repeat !important; */
         background-size: cover !important;
