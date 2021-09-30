@@ -437,8 +437,9 @@ $(function() {
         var content = $(this).attr('rel');
         $('.soul-healing-content').html('')
 
-        $('.soul-healing-content-' + group).html(content)
-
+        $('.soul-healing-content-' + group).html(content);
+        $('.soul-healing-content-' + group).fadeOut(0);
+        $('.soul-healing-content-' + group).slideDown(200)
     })
 
 })
