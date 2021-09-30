@@ -1844,6 +1844,10 @@ footer {
     transform: translate(0, -50%);
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
