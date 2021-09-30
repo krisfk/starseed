@@ -134,7 +134,7 @@ if( have_rows('content_sections') )
                             <?php
 }
 ?>
-                            <div class="mt-4 text-start">
+                            <div class="mt-4 text-start mobile-align">
                                 <?php echo $content;?>
                             </div>
 
