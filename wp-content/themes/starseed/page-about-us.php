@@ -26,7 +26,7 @@ get_header(); ?>
 
 <div class="inner-container container pb-6 mt-5 text-center">
     <div class="row align-items-center justify-content-center gx-5 fadein-ele">
-
+        fff
         <?php echo get_the_content();?>
 
     </div>
@@ -77,7 +77,7 @@ if( have_rows('content_sections') )
 ?>
 
         <div class="mt-3 text-start content-txt-div">
-            fff
+
             <?php echo $content;?>
         </div>
 
