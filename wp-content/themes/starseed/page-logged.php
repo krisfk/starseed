@@ -45,7 +45,7 @@ exit;
             </h1>
         </div>
 
-        <div class="mt-4 content-txt-div p-0">
+        <div class="mt-4 content-txt-div">
             <?php echo get_the_content();?>
 
 
@@ -117,7 +117,7 @@ $idx=0;
                     ?>
                 </h2>
 
-                <div class="content-txt-div">
+                <div class="content-txt-div p-0">
                     <?php 
                      echo $category->description;
                     ?>
