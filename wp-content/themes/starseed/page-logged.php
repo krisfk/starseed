@@ -45,7 +45,7 @@ exit;
             </h1>
         </div>
 
-        <div class="mt-4 content-txt-div">
+        <div class="mt-4 content-txt-div p-0">
             <?php echo get_the_content();?>
 
 
