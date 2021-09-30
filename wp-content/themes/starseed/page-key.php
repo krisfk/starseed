@@ -178,11 +178,12 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div">
-            <?php
+        <div class="container">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div">
+                <?php
             echo get_field('content_4');
             ?>
-            <!-- <h1>星際種子圖書館</h1>
+                <!-- <h1>星際種子圖書館</h1>
             <div>
 
 
@@ -194,6 +195,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
             </div>
             <a href="#" class="know-more-btn">了解更多</a> -->
+            </div>
         </div>
 
     </div>
