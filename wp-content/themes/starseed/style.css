@@ -2102,6 +2102,7 @@ footer {
         margin: 0 0 5rem 0 !important;
     }
     .about-div {
+        text-align: justify;
         display: flex;
         width: 100%;
         padding: 3rem 12px 3rem 12px;
