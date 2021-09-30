@@ -178,7 +178,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div">
             <?php
             echo get_field('content_4');
             ?>
