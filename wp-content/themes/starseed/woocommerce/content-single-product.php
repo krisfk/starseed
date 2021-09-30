@@ -237,7 +237,7 @@ if($idx %3==0)
 {
     ?>
         <div class="col-12">
-            <div class="mt-4 soul-healing-content  soul-healing-content-<?php echo $idx2;?>">
+            <div class="mt-4 soul-healing-content content-txt-div  soul-healing-content-<?php echo $idx2;?>">
 
             </div>
 
