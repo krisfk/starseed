@@ -34,7 +34,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 <img class="star4" src="<?php echo get_template_directory_uri();?>/assets/images/star4.png" alt=""> -->
 
 
-
+<!-- 
 
 <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
@@ -43,7 +43,27 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
 <img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
-    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt=""> -->
+
+<img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:0;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
+
+<img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:0;position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
+
+<img class="left-star fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:0;position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
+
+<img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:0;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
 
 
 
