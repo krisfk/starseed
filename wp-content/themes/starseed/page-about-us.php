@@ -64,7 +64,7 @@ if( have_rows('content_sections') )
         style="position: absolute;top: <?php echo rand(30,60); ?>;width: 200px !important;opacity: 0;right: 0px;"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star7.png" alt="">
     <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="position: absolute;bottom: 20px;left: <?php echo rand(-300,0); ?>;width: 305px !important;opacity: 0;"
+        style="position: absolute;bottom: 20px;left: <?php echo rand(-300,-250); ?>;width: 305px !important;opacity: 0;"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star8.png" alt="">
     <!-- <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
