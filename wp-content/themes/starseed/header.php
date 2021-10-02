@@ -77,6 +77,11 @@
                                             <img src="<?php echo get_template_directory_uri();?>/assets/images/logo.png"
                                                 alt="">
                                         </a>
+
+                                        <a href="<?php echo get_site_url();?>" class="mobile-logo-a">
+                                            <img src="<?php echo get_template_directory_uri();?>/assets/images/starseed-mobile-logo.png"
+                                                alt="">
+                                        </a>
                                     </div>
                                     <div class="col-10 text-end">
 
