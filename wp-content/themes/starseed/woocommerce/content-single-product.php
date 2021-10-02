@@ -40,11 +40,16 @@ global $product;
 
 <div class="inner-container pb-6 mt-lg-5 mt-md-0 mt-sm-0 mt-0 position-relative">
 
-    <img class="star7 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-    <img class="star8 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-    <img class="star9 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
-    <img class="star10 fadein-ele" src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
+    <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
+    <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
+    <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+    <img class="star10 fadein-ele"
+        style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
