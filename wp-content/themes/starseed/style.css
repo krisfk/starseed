@@ -1852,6 +1852,11 @@ footer {
     display: none;
 }
 
+.contact-table {
+    background: #5d235e;
+    padding: 1rem;
+}
+
 .contact-table a {
     text-decoration: underline;
     color: #fff !important;
