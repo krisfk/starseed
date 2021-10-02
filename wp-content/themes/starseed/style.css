@@ -2028,7 +2028,7 @@ footer {
         right: 2.2rem;
     }
     .mobile-menu-submenu {
-        display: none !important;
+        /* display: none !important; */
         position: relative;
         top: auto;
         background: none;
