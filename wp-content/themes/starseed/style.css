@@ -1929,6 +1929,7 @@ footer {
         background: url(./assets/images/bg.jpg);
         background-size: 100% auto;
         /* padding: 0 1rem; */
+        padding-bottom: 5rem;
     }
     .bg-img {
         display: block;
