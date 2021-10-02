@@ -1951,6 +1951,11 @@ footer {
         float: left !important;
         width: auto !important;
     }
+    .top-menu-ul-wrapper {
+        background: rgb(95 34 63 / 80%);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
     .top-menu-ul {
         display: none;
         position: fixed;
@@ -1962,9 +1967,9 @@ footer {
         /* height: 100%; */
         padding-bottom: 2rem;
         /* margin: 1rem 0 0 0; */
-        background: rgb(95 34 63 / 80%);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        /* background: rgb(95 34 63 / 80%); */
+        /* backdrop-filter: blur(5px); */
+        /* -webkit-backdrop-filter: blur(5px); */
     }
     .top-menu-ul li {
         width: 100%;
