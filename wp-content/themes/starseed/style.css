@@ -316,13 +316,7 @@ body {
 
 .star10 {}
 
-.star11 {
-    width: 400px !important;
-    position: absolute;
-    bottom: 330px;
-    left: -170px;
-    /* display: none; */
-}
+.star11 {}
 
 .top-menu-div {
     position: relative;
