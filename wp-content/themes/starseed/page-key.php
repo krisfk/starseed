@@ -270,12 +270,17 @@ $(function() {
     $('.pms-form-fields-wrapper,.pms-field-section').addClass('row');
     $('.pms-field-type-heading,.pms-field-subscriptions').removeClass('col-6')
     $('.pms-field-subscriptions').addClass('col-12');
-    $('.pms-field-type-heading').addClass('col-12 mt-3');
     $('.pms-field-subscriptions').addClass('m-0');
     $('.pms-field').addClass('col-lg-6');
     $('.pms-field').addClass('col-md-6');
     $('.pms-field').addClass('col-sm-12');
     $('.pms-field').addClass('col-12');
+    $('.pms-field-type-heading').removeClass('col-lg-6');
+    $('.pms-field-type-heading').removeClass('col-md-6');
+    $('.pms-field-type-heading').removeClass('col-sm-6');
+    $('.pms-field-type-heading').addClass('col-12 mt-3');
+
+
 
 
     $('<a href="#form-top" class="d-inline-block login-a">會員登入</a>').insertBefore($(
