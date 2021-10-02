@@ -105,7 +105,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
             ?>
 
 
-                <a href="#form-top" class="d-inline-block register-a">新會員加入</a>
+                <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
 
 
 
