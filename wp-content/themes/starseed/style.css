@@ -1932,7 +1932,7 @@ footer {
         padding: 0.5rem 0 0.5rem 0;
         display: block;
         width: 100%;
-        0.5rem 0 0.5rem FONT-VARIANT: JIS04;
+        /* 0.5rem 0 0.5rem FONT-VARIANT: JIS04; */
     }
     .mobile-menu-submenu {
         display: block !important;
