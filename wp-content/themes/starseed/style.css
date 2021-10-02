@@ -1952,9 +1952,9 @@ footer {
         width: auto !important;
     }
     .top-menu-ul-wrapper {
-        background: rgb(95 34 63 / 80%);
+        /* background: rgb(95 34 63 / 80%);
         backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px); */
     }
     .top-menu-ul {
         display: none;
