@@ -1877,6 +1877,11 @@ footer {
     display: none;
 }
 
+.pms-form .pms-field-section {
+    list-style: none;
+    width: 100%;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
