@@ -1928,6 +1928,15 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+    .top-menu-container {
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(95 34 63 / 80%);
+        padding: 0.5rem;
+    }
     .text-center.mobile-align,
     .text-end.mobile-align,
     .text-start.mobile-align {
