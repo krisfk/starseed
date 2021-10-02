@@ -1988,7 +1988,10 @@ footer {
     }
     .cart-a {
         display: block;
+        /* float: left !important; */
         margin: 20px 0 0 0;
+        float: left !important;
+        width: auto !important;
     }
     .top-menu-ul {
         display: none;
