@@ -1934,6 +1934,9 @@ footer {
         height: 75px !important;
         width: auto !important;
     }
+    a.mobile-menu-btn {
+        display: block;
+    }
     .main-container {
         padding: 100px 0 0 0;
     }
@@ -2022,7 +2025,7 @@ footer {
         padding: 0;
     }
     a.mobile-menu-btn {
-        display: block;
+        display: none;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
