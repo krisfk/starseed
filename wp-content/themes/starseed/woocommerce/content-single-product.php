@@ -406,6 +406,18 @@ if(get_field('show_notice_content'))
 {
     ?>
 <div class="container mt-5 text-center pb-5 inner-container pe-3 ps-3">
+
+    <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
+        style="position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+        alt="">
+
+    <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
+        style="position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+        alt="">
+
+
     <h1 class="mt-4">注意事項</h1>
     <div class="mt-4">
         <?php
