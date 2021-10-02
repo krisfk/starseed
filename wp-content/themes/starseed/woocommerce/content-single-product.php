@@ -211,7 +211,7 @@ if(get_field('icon_and_text_structure'))
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
     <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="position: absolute;bottom: <?php echo rand(220,300); ?>px;left: <?php echo rand(-300,-250); ?>px;width: <?php echo rand(250,300); ?>px !important;opacity: 0;"
+        style="position: absolute;bottom: <?php echo rand(220,300); ?>px;left: <?php echo rand(-400,-350); ?>px;width: <?php echo rand(250,300); ?>px !important;opacity: 0;"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
