@@ -214,6 +214,17 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                             $(function() {
 
 
+                                $('.top-menu-ul li a.level-1.parent').click(function(e) {
+                                    if ($(window).width() <= 1200) {
+                                        e.preventDefault();
+
+                                    }
+
+
+                                })
+
+
+
                                 $(window).resize(function() {
                                     // alert(6);
 
