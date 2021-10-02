@@ -33,11 +33,45 @@ get_header(); ?>
     <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
-            <h1>學院課程/工作坊
+            <h1>聯絡我們
             </h1>
         </div>
 
-        <div class="mt-4">星際種子學院是一個讓人學習如何運用宇宙智慧和宇宙能量頻率的機構，致力讓每個人都可以透過尋回內在自性創造內在和諧，從而達致靈魂成長，成就更好的自己。
+        <div class="mt-4">
+
+            我們樂意為您提供任何協助 <br>
+
+            <table>
+                <tr>
+                    <td>Whatsapp:</td>
+                    <td>5340 8275</td>
+                </tr>
+                <tr>
+                    <td>Facebook:</td>
+                    <td>
+                        <a href="https://galacticstarseedacademy.com/"
+                            target="_blank">https://galacticstarseedacademy.com/</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Instagram:</td>
+                    <td>
+                        <a href="https://www.instagram.com/g.s.a.official/"
+                            target="_blank">https://www.instagram.com/g.s.a.official/</a>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+
+                        <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a>
+                    </td>
+                </tr>
+            </table>
+
+
+            <br>
 
         </div>
 
