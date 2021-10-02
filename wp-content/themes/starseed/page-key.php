@@ -190,9 +190,12 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div">
-            <?php
+
+            <div class="container">
+                <?php
             echo get_field('content_4');
             ?>
+            </div>
             <!-- <h1>星際種子圖書館</h1>
             <div>
 
