@@ -1959,6 +1959,7 @@ footer {
         width: 100%;
         background: rgb(95 34 63 / 95%);
         padding: 1rem 1.3rem 1rem 1.2rem;
+        border-bottom: 1px solid rgb(208 150 156 / 20%);
     }
     .main-container {
         /* background: none; */
@@ -2006,7 +2007,7 @@ footer {
     .top-menu-ul {
         display: none;
         position: fixed;
-        top: 107px;
+        top: 133px;
         left: 0;
         width: 100%;
         padding-top: 1rem;
