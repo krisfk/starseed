@@ -44,7 +44,7 @@
     <div id="page" class="site">
 
 
-        <a href="javascript:void(0);" class="menu-close-btn"></a>
+        <!-- <a href="javascript:void(0);" class="menu-close-btn"></a> -->
 
 
         <a class="skip-link screen-reader-text"
@@ -213,17 +213,17 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 $('.mobile-menu-btn').click(function(e) {
                                     e.preventDefault();
                                     $('.top-menu-ul').fadeIn(200);
-                                    $('.menu-close-btn').fadeIn(0);
+                                    // $('.menu-close-btn').fadeIn(0);
 
                                 })
 
-                                $('.menu-close-btn').click(function(e) {
-                                    e.preventDefault();
-                                    $('.top-menu-ul').fadeOut(0);
+                                // $('.menu-close-btn').click(function(e) {
+                                //     e.preventDefault();
+                                //     $('.top-menu-ul').fadeOut(0);
 
-                                    $('.menu-close-btn').fadeOut(0);
+                                //     // $('.menu-close-btn').fadeOut(0);
 
-                                })
+                                // })
 
                                 $('.level-1').mouseenter(function() {
 
