@@ -1824,13 +1824,13 @@ footer {
     z-index: -300;
 } */
 
-.cart-product-page {
+.cart-a.cart-product-page {
     text-align: center;
     position: fixed;
     bottom: 1rem;
     right: 1rem;
     display: block;
-    width: 70px;
+    width: 70px !important;
     height: 70px;
     z-index: 1000;
     background: rgb(82 60 109 / 0.8);
