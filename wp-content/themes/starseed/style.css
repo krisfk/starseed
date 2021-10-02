@@ -1006,7 +1006,7 @@ form.woocommerce-checkout {
 
 #pms-stripe-credit-card-details {
     /* margin: 0 12px; */
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1070,6 +1070,7 @@ form.pms-form ul.pms-form-fields-wrapper {
 .pms-field {
     margin: 0;
     margin-bottom: 1rem;
+    padding: 0 !important;
 }
 
 #pms_register-form h4 {
