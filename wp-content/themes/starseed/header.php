@@ -182,15 +182,15 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                             </li>
                                         </ul>
 
-                                        <a href="#" class="mobile-menu-btn float-end">
+                                        <!-- <a href="#" class="mobile-menu-btn float-end"> -->
 
-                                            <div id="nav-icon3" class="mobile-menu-btn">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                            </div>
+                                        <a id="nav-icon3" href="#" class="mobile-menu-btn float-end">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
                                         </a>
+                                        <!-- </a> -->
 
 
 
@@ -223,7 +223,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 $('.mobile-menu-btn').click(function(e) {
                                     e.preventDefault();
                                     $('.top-menu-ul').fadeIn(200);
-                                    $(this).toggleClass('opened');
+                                    $(this).toggleClass('open');
                                     // $('.menu-close-btn').fadeIn(0);
 
                                 })
