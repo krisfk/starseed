@@ -189,8 +189,7 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
 
-        <div
-            class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-lg-0 pe-md-0 pe-sm-0 pe-4 ps-lg-0 ps-md-0 ps-sm-0 ps-4">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
 
             <!-- <div class="container ps-e pe"> -->
             <?php
