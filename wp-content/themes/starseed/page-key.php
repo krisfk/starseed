@@ -166,7 +166,8 @@ if( pms_is_member_of_plan( array( 178 ) ) )
     <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5">
 
 
-        <img class="star11" src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt="">
+        <img class="star11" style=" width: 400px !important;position: absolute;bottom: 330px;left: -170px;"
+            src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt="">
 
 
 
