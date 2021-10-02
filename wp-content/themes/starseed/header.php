@@ -223,6 +223,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 $('.mobile-menu-btn').click(function(e) {
                                     e.preventDefault();
                                     $('.top-menu-ul').fadeIn(200);
+                                    $(this).toggleClass('opened');
                                     // $('.menu-close-btn').fadeIn(0);
 
                                 })
