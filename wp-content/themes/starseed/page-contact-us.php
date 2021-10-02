@@ -42,7 +42,7 @@ get_header(); ?>
             我們樂意為您提供任何協助 <br>
 
 
-            <div class="contact-table-div">
+            <div class="contact-table-div mt-5">
                 <table class="mx-auto text-start contact-table mt-5">
                     <tr>
                         <td>Whatsapp:</td>
