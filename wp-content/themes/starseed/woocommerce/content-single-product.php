@@ -310,6 +310,17 @@ if(get_field('show_heal_flow'))
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
+    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
+        style="z-index:-10;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+        alt="">
+
+    <img class="left-star fadein-ele animate__animated animate__fadeIn delay-2"
+        style="z-index:-10;position: absolute;top: <?php echo rand(1500,1700); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+        alt="">
+
+
 
     <h1 class="text-center">療癒流程</h1>
 
