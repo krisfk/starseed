@@ -295,17 +295,17 @@ if(get_field('show_heal_flow'))
 <div class="container  inner-container mt-5">
 
 
-    <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
+    <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
         style="position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-    <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
+    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
         style="position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-    <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
+    <img class="left-star fadein-ele animate__animated animate__fadeIn delay-2"
         style="position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
