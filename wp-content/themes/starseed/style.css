@@ -1854,7 +1854,7 @@ footer {
 
 .contact-table a {
     text-decoration: underline;
-    color: #fff;
+    color: #fff !important;
 }
 
 @media only screen and (max-width: 1920px) {}
