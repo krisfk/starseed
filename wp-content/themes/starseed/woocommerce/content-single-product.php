@@ -218,8 +218,10 @@ if(get_field('icon_and_text_structure'))
     <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
         style="position: absolute;top: <?php echo rand(300,400); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt=""> <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="position: absolute;top: <?php echo rand(600,700); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
+        alt="">
+
+    <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
+        style="position: absolute;bottom: <?php echo rand(320,400); ?>px;left: <?php echo rand(-300,-250); ?>px;width: <?php echo rand(250,300); ?>px !important;opacity: 0;"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
