@@ -302,27 +302,6 @@ body {
     color: #4e1458;
 }
 
-.star0 {
-    width: 500px !important;
-    position: absolute;
-    top: 82px;
-    left: -444px;
-}
-
-.star2 {
-    width: 320px !important;
-    position: absolute;
-    top: -2px;
-    left: 540px;
-}
-
-.star3 {
-    width: 300px !important;
-    position: absolute;
-    top: 120px;
-    right: -163px;
-}
-
 .star4 {
     width: 170px !important;
     position: absolute;
