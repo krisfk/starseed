@@ -293,8 +293,8 @@ $(function() {
 
 
     $('.register-a').click(function() {
-        $('.form-div').fadeOut(0);
-        $('.form-div-register').fadeIn(0);
+        // $('.form-div').fadeOut(0);
+        // $('.form-div-register').fadeIn(0);
     })
 
     $('.login-a').click(function() {
