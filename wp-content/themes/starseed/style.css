@@ -1851,6 +1851,22 @@ footer {
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
+    .logo-a img {
+        height: 75px !important;
+        width: auto !important;
+    }
+    .main-container {
+        padding: 100px 0 0 0;
+    }
+    .top-menu-container {
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(95 34 63 / 80%);
+        padding: 0.5rem;
+    }
     .main-container {
         /* background: none; */
         background: url(./assets/images/bg.jpg);
@@ -1928,22 +1944,6 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
-    .logo-a img {
-        height: 75px !important;
-        width: auto !important;
-    }
-    .main-container {
-        padding: 100px 0 0 0;
-    }
-    .top-menu-container {
-        position: fixed;
-        z-index: 10000;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: rgb(95 34 63 / 80%);
-        padding: 0.5rem;
-    }
     .text-center.mobile-align,
     .text-end.mobile-align,
     .text-start.mobile-align {
