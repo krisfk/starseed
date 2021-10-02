@@ -1852,9 +1852,10 @@ footer {
     display: none;
 }
 
-.contact-table {
+.contact-table-div {
     background: #5d235e;
     padding: 1rem;
+    display: inline-block;
 }
 
 .contact-table a {

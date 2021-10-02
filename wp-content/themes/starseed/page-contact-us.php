@@ -41,34 +41,37 @@ get_header(); ?>
 
             我們樂意為您提供任何協助 <br>
 
-            <table class="mx-auto text-start contact-table mt-5">
-                <tr>
-                    <td>Whatsapp:</td>
-                    <td>5340 8275</td>
-                </tr>
-                <tr>
-                    <td>Facebook:</td>
-                    <td>
-                        <a href="https://galacticstarseedacademy.com/"
-                            target="_blank">https://galacticstarseedacademy.com/</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Instagram:</td>
-                    <td>
-                        <a href="https://www.instagram.com/g.s.a.official/"
-                            target="_blank">https://www.instagram.com/g.s.a.official/</a>
 
-                    </td>
-                </tr>
-                <tr>
-                    <td>Email:</td>
-                    <td>
+            <div class="contact-table-div">
+                <table class="mx-auto text-start contact-table mt-5">
+                    <tr>
+                        <td>Whatsapp:</td>
+                        <td>5340 8275</td>
+                    </tr>
+                    <tr>
+                        <td>Facebook:</td>
+                        <td>
+                            <a href="https://galacticstarseedacademy.com/"
+                                target="_blank">https://galacticstarseedacademy.com/</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Instagram:</td>
+                        <td>
+                            <a href="https://www.instagram.com/g.s.a.official/"
+                                target="_blank">https://www.instagram.com/g.s.a.official/</a>
 
-                        <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a>
-                    </td>
-                </tr>
-            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+
+                            <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
 
             <br>
