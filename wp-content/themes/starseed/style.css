@@ -1865,6 +1865,7 @@ footer {
     zoom: 0.5;
     float: right;
     position: relative;
+    display: block;
     z-index: 2000;
 }
 
@@ -1873,7 +1874,7 @@ footer {
     position: absolute;
     height: 5px;
     width: 100%;
-    background: #153d89;
+    background: #fff;
     border-radius: 9px;
     opacity: 1;
     left: 0;
