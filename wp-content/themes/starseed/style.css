@@ -1626,8 +1626,8 @@ input[type='submit']:hover,
     padding: 10px;
 }
 
-.mobile-menu-btn {
-    display: none;
+a.mobile-menu-btn {
+    display: none !important;
 }
 
 .mobile-menu-btn:hover {
@@ -2025,7 +2025,7 @@ footer {
         padding: 0;
     }
     a.mobile-menu-btn {
-        display: none !important;
+        display: none;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
