@@ -272,7 +272,10 @@ $(function() {
     $('.pms-field-subscriptions').addClass('col-12');
     $('.pms-field-type-heading').addClass('col-12 mt-3');
     $('.pms-field-subscriptions').addClass('m-0');
-    $('.pms-field').addClass('col-6');
+    $('.pms-field').addClass('col-lg-6');
+    $('.pms-field').addClass('col-md-6');
+    $('.pms-field').addClass('col-sm-12');
+    $('.pms-field').addClass('col-12');
 
 
     $('<a href="#form-top" class="d-inline-block login-a">會員登入</a>').insertBefore($(
