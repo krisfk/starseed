@@ -2017,6 +2017,13 @@ footer {
         width: 100%;
         /* 0.5rem 0 0.5rem FONT-VARIANT: JIS04; */
     }
+    .top-menu-ul li a .arrow {
+        width: 26px;
+        position: absolute;
+        top: 10px;
+        /* transform:translate(0,-50%); */
+        right: 1.6rem;
+    }
     .mobile-menu-submenu {
         display: block !important;
         position: relative;
