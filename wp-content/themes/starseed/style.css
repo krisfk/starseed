@@ -2034,8 +2034,12 @@ footer {
         display: inline-block;
         position: absolute;
         top: 10px;
+        transition: 0.2s all;
         /* transform:translate(0,-50%); */
-        right: 2.2rem;
+        right: 2.3rem;
+    }
+    .top-menu-ul li a.open .arrow {
+        transform: rotate(90deg);
     }
     .mobile-menu-submenu {
         /* display: none !important; */
