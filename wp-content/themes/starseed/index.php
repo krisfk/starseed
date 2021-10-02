@@ -76,8 +76,11 @@ get_header(); ?>
 
 <div class="container mt-5 mb-5 position-relative">
 
-    <img class="star5" src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt="">
-    <img class="star6" src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+    <img class="star5" style="width: 400px !important;position: absolute;left: -280px;bottom: -70px;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt="">
+
+    <img class="star6" style=" width: 350px !important;position: absolute;top: -69px;right: -200px;"
+        src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
 
 
 

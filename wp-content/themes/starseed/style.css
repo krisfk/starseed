@@ -302,63 +302,19 @@ body {
     color: #4e1458;
 }
 
-.star4 {
-    width: 170px !important;
-    position: absolute;
-    bottom: 51px;
-    left: 600px;
-}
+.star4 {}
 
-.star5 {
-    width: 400px !important;
-    position: absolute;
-    bottom: 51px;
-    left: 1000px;
-    /* display: none; */
-    left: -280px;
-    bottom: -70px;
-}
+.star5 {}
 
-.star6 {
-    width: 350px !important;
-    position: absolute;
-    top: -69px;
-    right: -200px;
-    /* display: none; */
-}
+.star6 {}
 
-.star7 {
-    width: 200px !important;
-    position: absolute;
-    top: 49px;
-    left: 485px;
-    /* display: none; */
-}
+.star7 {}
 
-.star8 {
-    width: 305px !important;
-    position: absolute;
-    bottom: 20px;
-    left: -140px;
-    /* display: none; */
-}
+.star8 {}
 
-.star9 {
-    width: 370px !important;
-    position: absolute;
-    bottom: -120px;
-    left: 543px;
-    /* display: none; */
-}
+.star9 {}
 
-.star10 {
-    width: 370px !important;
-    position: absolute;
-    bottom: 0;
-    right: -165px;
-    /* display: none; */
-    z-index: 0;
-}
+.star10 {}
 
 .star11 {
     width: 400px !important;
