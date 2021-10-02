@@ -28,6 +28,10 @@ get_header(); ?>
     src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
 
+
+
+
+
 <div class="container">
     <div class="inner-container container pb-6 mt-5 text-center">
         <div class="row align-items-center justify-content-center gx-5 fadein-ele">
