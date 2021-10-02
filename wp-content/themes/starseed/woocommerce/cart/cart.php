@@ -20,6 +20,16 @@ defined( 'ABSPATH' ) || exit;
 do_action( 'woocommerce_before_cart' ); ?>
 
 
+<img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
+    src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
+<img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
+    src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
+<img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
+    src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
+<img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
+    src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
+
+
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
     <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
