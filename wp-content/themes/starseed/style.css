@@ -151,7 +151,7 @@ body {
 }
 
 .woocommerce-page .logo-a img {
-    /* height: 100px !important; */
+    height: 100px !important;
     width: auto !important;
 }
 
