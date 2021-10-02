@@ -2031,6 +2031,7 @@ footer {
     }
     .top-menu-ul li a .arrow {
         width: 20px;
+        display: inline-block;
         position: absolute;
         top: 10px;
         /* transform:translate(0,-50%); */
