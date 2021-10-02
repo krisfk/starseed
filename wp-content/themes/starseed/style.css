@@ -1871,6 +1871,12 @@ footer {
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
+    .left-star {
+        left: 0px !important;
+    }
+    .right-star {
+        right: 0px !important;
+    }
     .logo-a img {
         height: 75px !important;
         width: auto !important;
