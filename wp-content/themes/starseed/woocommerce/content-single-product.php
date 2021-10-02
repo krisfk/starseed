@@ -418,7 +418,7 @@ if(get_field('show_notice_content'))
         alt="">
 
 
-    <h1 class="mt-4">注意事項</h1>
+    <h1 class="mt-4">注意事項1</h1>
     <div class="mt-4">
         <?php
         echo  get_field('notice_content');
