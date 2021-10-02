@@ -999,7 +999,7 @@ form.woocommerce-checkout {
 #pms_register-form {
     background: url(./assets/images/form-bg-stripe.jpg) repeat-y;
     background-size: 100% 100%;
-    padding: 30px;
+    padding: 30px 30px 50px 30px;
     border-radius: 30px;
     max-width: 500px;
 }
