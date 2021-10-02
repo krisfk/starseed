@@ -182,7 +182,9 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                             </li>
                                         </ul>
 
-                                        <a href="#" class="mobile-menu-btn float-end"> <i class="fa fa-bars"></i>
+                                        <a href="#" class="mobile-menu-btn float-end">
+
+                                            <!-- <i class="fa fa-bars"></i> -->
                                         </a>
 
 
