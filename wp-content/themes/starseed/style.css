@@ -1858,7 +1858,7 @@ footer {
 }
 
 .contact-table td {
-    padding: 2rem;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 1920px) {}
