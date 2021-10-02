@@ -87,43 +87,7 @@ get_header(); ?>
 
 <div class="container mt-6  text-center inner-container pb-5">
 
-
-    <?php
-    $args = array( 'product_cat' => 'workshop' );
-    $query = new WP_Query( $args );
-
-    if ( $query->have_posts() ) {
-        while ( $query->have_posts() ) {
-            $query->the_post();
-?>
-    <div class="course-entry-div mb-5">
-        <div class="row">
-            <div class="entry-row-bg col-lg-5 col-md-5 col-sm-12 col-12  position-relative overflow-hidden"
-                style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size:auto 100%;">
-                <div class="course-entry-rect"></div>
-
-                <img class="course-thumbnail" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5">
-                <h2><?php echo get_the_title();?></h2>
-
-                <div>
-                    <?php
-                        echo get_the_excerpt();
-                        ?>
-                </div>
-
-                <div class="text-end"> <a href="<?php echo get_permalink();?>" class="know-more-btn2">了解更多</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <?php
-        }
-    }
-    
-    
-?>
+    ?>
 
 
 
@@ -136,35 +100,8 @@ get_header(); ?>
 
 
 <script type="text/javascript">
-$(function() {
-    $('.slides').slick({
-        dots: true,
-    });
-
-    $('.soul-healing-icon-a').click(function() {
-
-        $('.soul-healing-icon-a').css({
-            'opacity': 0.5
-        })
-
-        $('.soul-healing-icon-a').removeClass('active');
-        $(this).toggleClass('active');
 
 
-        $('.soul-healing-icon-a.active').css({
-            'opacity': 1
-        })
-
-
-        var group = $(this).attr('data-group');
-        var content = $(this).attr('rel');
-        $('.soul-healing-content').html('')
-
-        $('.soul-healing-content-' + group).html(content)
-
-    })
-
-})
 </script>
 
 
