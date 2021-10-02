@@ -1948,7 +1948,7 @@ footer {
         left: 0;
         width: 100%;
         background: rgb(95 34 63 / 95%);
-        padding: 0.5rem 1.3rem 0.5rem 2rem;
+        padding: 1rem 1.3rem 1rem 1.2rem;
     }
     .main-container {
         /* background: none; */
@@ -1996,13 +1996,13 @@ footer {
     .top-menu-ul {
         display: none;
         position: fixed;
-        top: 91px;
+        top: 107px;
         left: 0;
         width: 100%;
         padding-top: 1rem;
         height: 100%;
         /* margin: 1rem 0 0 0; */
-        background: rgb(95 34 63 / 80%);
+        background: rgb(95 34 63 / 95%);
     }
     .top-menu-ul li {
         width: 100%;
