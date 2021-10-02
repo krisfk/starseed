@@ -264,14 +264,17 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                 $('.level-1').mouseenter(function() {
 
+                                    if ($(window).width() > 1200) {
+                                        $('.mobile-menu-submenu').clearQueue().fadeOut(0);
 
-                                    $('.mobile-menu-submenu').clearQueue().fadeOut(0);
 
+                                        if ($(this).hasClass('parent')) {
+                                            $(this).next('.mobile-menu-submenu').fadeIn(0);
 
-                                    if ($(this).hasClass('parent')) {
-                                        $(this).next('.mobile-menu-submenu').fadeIn(0);
-
+                                        }
                                     }
+
+
 
                                 })
 
@@ -291,8 +294,12 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                 $('.level-1').mouseleave(function() {
 
-                                    $('.mobile-menu-submenu').delay(500).fadeOut(0)
+                                    if ($(window).width() > 1200) {
 
+
+                                        $('.mobile-menu-submenu').delay(500).fadeOut(0)
+
+                                    }
                                 })
 
 
