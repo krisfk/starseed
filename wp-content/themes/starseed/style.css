@@ -1873,6 +1873,10 @@ footer {
     padding: 5px;
 }
 
+.mobile-logo-a {
+    display: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
@@ -1881,6 +1885,9 @@ footer {
     }
     .right-star {
         right: 0px !important;
+    }
+    .mobile-logo-a {
+        display: inline-block;
     }
     .mobile-logo-a img {
         height: 75px !important;
