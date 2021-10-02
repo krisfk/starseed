@@ -41,7 +41,7 @@ get_header(); ?>
 
             我們樂意為您提供任何協助 <br>
 
-            <table>
+            <table class="mx-auto text-start contact-table">
                 <tr>
                     <td>Whatsapp:</td>
                     <td>5340 8275</td>
