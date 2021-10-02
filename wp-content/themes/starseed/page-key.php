@@ -149,22 +149,22 @@ if( pms_is_member_of_plan( array( 178 ) ) )
 
 
     <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+        style="z-index:0;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
     <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+        style="z-index:0;position: absolute;top: <?php echo rand(500,600); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
     <img class="left-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+        style="z-index:0;position: absolute;top: <?php echo rand(700,900); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
     <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+        style="z-index:0;position: absolute;top: <?php echo rand(1100,1300); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
@@ -196,8 +196,8 @@ if( pms_is_member_of_plan( array( 178 ) ) )
     <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5">
 
 
-        <img class="star11" style=" width: 400px !important;position: absolute;bottom: 330px;left: -170px;"
-            src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt="">
+        <!-- <img class="star11" style=" width: 400px !important;position: absolute;bottom: 330px;left: -170px;"
+            src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt=""> -->
 
 
 
