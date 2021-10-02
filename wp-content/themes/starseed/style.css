@@ -2025,12 +2025,13 @@ footer {
         right: 1.6rem;
     }
     .mobile-menu-submenu {
-        display: block !important;
+        display: none !important;
         position: relative;
         top: auto;
         background: none;
         margin: 0 0 0 1rem;
         padding: 0;
+        display: none;
     }
     a.mobile-menu-btn {
         display: none;
