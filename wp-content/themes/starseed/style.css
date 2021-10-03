@@ -2058,7 +2058,7 @@ footer {
     }
     .mobile-menu-submenu li a {
         font-size: 20px;
-        font-size: !important;
+        /* font-size: !important; */
     }
     .top-menu-ul li {
         width: 100%;
