@@ -512,7 +512,7 @@ $(function() {
         $('.soul-healing-content-' + group).fadeOut(0);
         $('.soul-healing-content-' + group).slideDown(200);
 
-        $("body,html").scrollTop($(this).offset().top + 300);
+        $("body,html").scrollTop($(this).offset().top - 100);
 
 
     })
