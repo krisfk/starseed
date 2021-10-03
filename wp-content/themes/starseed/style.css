@@ -2054,6 +2054,9 @@ footer {
 }
 
 @media only screen and (max-width: 991px) {
+    .justify-content-center {
+        text-align: center !important;
+    }
     .text-center.mobile-align,
     .text-end.mobile-align,
     .text-start.mobile-align {
