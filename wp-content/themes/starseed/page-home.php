@@ -127,7 +127,7 @@ get_header(); ?>
 
             <div class="col-lg-6 col-md-12 col-sm-12 col-12  position-relative key-bg">
 
-                <div class="content-txt me-5">
+                <div class="content-txt me-5 px-4">
                     <?php echo get_field('content_4');?>
 
                     <!-- <h1>揚升之鑰</h1>
@@ -141,7 +141,7 @@ get_header(); ?>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 position-relative bud-bg ">
 
 
-                <div class="content-txt me-5">
+                <div class="content-txt me-5 px-4">
                     <!-- <h1>多次元靈魂療癒</h1>
                     <div>
                         多次元靈魂療癒是一種釋放生理、情緒、心智和靈性上的能量堵塞的療癒過程。在這個療癒過程中，Bosco會進入非物質維度找出你希望處理的事項的成因。
