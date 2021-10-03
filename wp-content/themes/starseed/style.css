@@ -1202,6 +1202,7 @@ input[type='submit'] {
 
 .pms-account-subscription-details-table tr td:first-child {
     padding-right: 2rem;
+    line-height: 2rem;
 }
 
 .page-account .pms-account-subscription-details-table tbody {
