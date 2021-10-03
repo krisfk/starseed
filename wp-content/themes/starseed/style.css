@@ -1996,6 +1996,9 @@ footer {
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
     }
+    .mobile-menu-submenu li a {
+        font-size: 1rem !important;
+    }
     .top-menu-ul li {
         width: 100%;
         list-style-type: none;
