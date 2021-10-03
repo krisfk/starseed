@@ -85,24 +85,32 @@ get_header(); ?>
                 <br><br>
                 現在加入，即享7日免費會員體驗，您可以隨時取消。
             </div> -->
+
+            <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                ?>
             <div class="form-div mt-5 form-div-login">
 
                 <div class="text-center">
                     <h4>會員登入</h4>
                 </div>
                 <?php
-                if($_GET['f']==1){
-                    ?>
+if($_GET['f']==1){
+    ?>
                 <div class="wrong-login-msg">登入資料不正確</div>
 
                 <?php
 
-                }
-                ?>
+}
+?>
                 <?php
             
             wp_login_form();
             ?>
+                <?php
+            }?>
+
+
 
 
                 <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
