@@ -17,11 +17,11 @@
 get_header(); ?>
 
 <?php
-if( pms_is_member_of_plan( array( 178 ) ) ) 
-{
-    wp_redirect(get_site_url().'/logged');
-    exit;
-}
+// if( pms_is_member_of_plan( array( 178 ) ) ) 
+// {
+//     wp_redirect(get_site_url().'/logged');
+//     exit;
+// }
 ?>
 
 <!-- 
