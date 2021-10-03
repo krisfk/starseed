@@ -971,6 +971,8 @@ td[data-title='Total'] {
 form.woocommerce-checkout {
     background: rgb(93 35 94 / 45%);
     padding: 1em 1.5em 1em 1.5em;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .entry-title {
@@ -1119,6 +1121,8 @@ input[type='submit'] {
 .pms-account-subscription-details-table {
     width: 100%;
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .pms-account-navigation ul {
@@ -1170,6 +1174,8 @@ input[type='submit'] {
     margin: 2rem auto;
     background: rgb(93 35 94 / 45%);
     max-width: 700px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .page-account .pms-account-subscription-details-table,
@@ -1197,6 +1203,8 @@ input[type='submit'] {
     width: 100%;
     border: none;
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     margin: 2rem auto;
     max-width: 500px;
 }
@@ -1248,6 +1256,8 @@ input[type='submit'] {
     width: 100%;
     border: none;
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     margin: 1rem auto;
     max-width: 500px;
     padding: 2rem;
@@ -1411,6 +1421,8 @@ input[type='submit'] {
 .woocommerce form.login,
 .woocommerce form.register {
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border: none;
 }
 
@@ -1514,6 +1526,8 @@ input[type='submit']:hover,
 .playlist-div #playlist,
 .playlist-div audio {
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     width: 300px;
     padding: 0;
     margin: 0 auto;
@@ -1531,6 +1545,8 @@ input[type='submit']:hover,
 .playlist-div li a {
     color: #eeeedd;
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 5px;
     display: block;
     text-decoration: none;
@@ -1857,6 +1873,8 @@ footer {
 
 .contact-table-div {
     background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 2rem;
     display: inline-block;
 }
