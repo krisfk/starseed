@@ -1929,6 +1929,10 @@ footer {
     margin: 0 0.3rem;
 }
 
+.mobile-logo-word {
+    display: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
@@ -1957,6 +1961,12 @@ footer {
         position: relative;
         z-index: 1000;
     }
+    .mobile-logo-word {
+        display: inline-block;
+        position: relative;
+        z-index: 1000;
+    }
+    .mobile-logo-word img {}
     .mobile-logo-a img {
         height: 45px !important;
         width: auto !important;
