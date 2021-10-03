@@ -1966,7 +1966,11 @@ footer {
         position: relative;
         z-index: 1000;
     }
-    .mobile-logo-word img {}
+    .mobile-logo-word img {
+        position: absolute;
+        height: 36px;
+        /* top: 0; */
+    }
     .mobile-logo-a img {
         height: 45px !important;
         width: auto !important;
