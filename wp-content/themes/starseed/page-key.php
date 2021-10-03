@@ -88,25 +88,36 @@ get_header(); ?>
 
             <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
             {
-                ?>
-            <?php
             }?>
+            <div class="form-div mt-5 form-div-login">
 
-            <?php
+                <div class="text-center">
+                    <h4>會員登入</h4>
+                </div>
+                <?php
+                if($_GET['f']==1){
+                    ?>
+                <div class="wrong-login-msg">登入資料不正確</div>
+
+                <?php
+
+                }
+                ?>
+                <?php
             
             wp_login_form();
             ?>
 
 
-            <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
+                <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
 
 
 
-        </div>
+            </div>
 
 
 
-        <?php 
+            <?php 
             // $member = pms_get_member(  );
             // print_r($member);
 
@@ -121,11 +132,11 @@ get_header(); ?>
             
             echo do_shortcode( '[pms-register]' );
             ?>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12 "><img class="key-img "
+                src="<?php echo get_template_directory_uri();?>/assets/images/key-img.png" alt="">
+        </div>
     </div>
-    <div class="col-lg-3 col-md-12 col-sm-12 col-12 "><img class="key-img "
-            src="<?php echo get_template_directory_uri();?>/assets/images/key-img.png" alt="">
-    </div>
-</div>
 </div>
 
 </div>
