@@ -212,7 +212,18 @@ wp_login_form();
 
             </div>
             <a href="#" class="know-more-btn">了解更多</a> -->
-            <a class="know-more-btn" href="<?php echo get_site_url();?>/category/cosmic-energy-meditation/">了解更多</a>
+            <a class="know-more-btn" href="<?php echo get_site_url();?>/category/cosmic-energy-meditation/">
+                <?php 
+            if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                echo '進入';
+            }
+            else
+            {
+                 echo '了解更多';
+            }
+                ?>
+            </a>
         </div>
         <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
@@ -258,7 +269,16 @@ wp_login_form();
 
             </div>
             <a href="#" class="know-more-btn">了解更多</a> -->
-            <a class="know-more-btn" href="<?php echo get_site_url();?>/category/interstellar-seed-library/">了解更多</a>
+            <a class="know-more-btn" href="<?php echo get_site_url();?>/category/interstellar-seed-library/"> <?php 
+            if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                echo '進入';
+            }
+            else
+            {
+                 echo '了解更多';
+            }
+                ?></a>
 
         </div>
 
