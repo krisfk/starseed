@@ -1887,7 +1887,7 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     .page-register .main-container {
-        padding: 6rem 0 0 0;
+        padding-top: 6rem;
     }
     .left-star {
         left: 0px !important;
