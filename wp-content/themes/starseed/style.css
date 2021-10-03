@@ -1965,9 +1965,15 @@ footer {
         display: inline-block;
         position: relative;
         z-index: 1000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* width: inherit; */
+        /* height: inherit; */
     }
     .mobile-logo-word img {
-        position: absolute;
+        /* position: absolute; */
         height: 36px;
         /* top: 0; */
     }
