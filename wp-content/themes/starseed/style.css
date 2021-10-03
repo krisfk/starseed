@@ -1919,6 +1919,11 @@ footer {
     margin: 1rem 0 0.5rem 0;
 }
 
+.pms-account-navigation li.pms-account-navigation-link {
+    margin-right: 16px;
+    display: inline-block;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
