@@ -470,6 +470,7 @@ a.add-to-cart-btn:hover {
     width: 20px !important;
     height: 20px !important;
     margin: 0 0 0 5px;
+    transform: rotate(90deg);
 }
 
 .heal-step-div {
