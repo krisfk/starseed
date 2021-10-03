@@ -589,6 +589,10 @@ a.add-to-cart-btn:hover {
     padding: 10px 0 10px 0;
 }
 
+.mobile-menu-submenu li a {
+    font-size: 1rem;
+}
+
 .mobile-menu-submenu li {
     display: block;
     /* text-align: left; */
