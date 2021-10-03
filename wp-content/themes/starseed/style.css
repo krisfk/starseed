@@ -2018,6 +2018,7 @@ footer {
         transition: 0.2s all;
         /* transform:translate(0,-50%); */
         right: 2.3rem;
+        transform: rotate(90deg);
     }
     .top-menu-ul li a.open .arrow {
         transform: rotate(90deg);
