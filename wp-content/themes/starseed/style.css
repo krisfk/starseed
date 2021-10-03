@@ -1917,9 +1917,9 @@ footer {
 }
 
 .page-account .pms-field {
-    margin: 0 5px 0 5px;
+    margin: 0;
     width: 100%;
-    padding: 0 1rem !important;
+    padding: 0 0 !important;
 }
 
 .page-account label {
