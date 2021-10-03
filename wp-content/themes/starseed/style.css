@@ -1906,7 +1906,11 @@ footer {
 }
 
 .page-account .pms-field {
-    margin: 0 10px;
+    margin: 0 5px 1rem 5px;
+}
+
+.page-account label {
+    margin: 0 0 0.5rem 0;
 }
 
 @media only screen and (max-width: 1920px) {}
