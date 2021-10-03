@@ -1126,7 +1126,8 @@ input[type='submit'] {
     width: 100%;
     background: rgb(93 35 94 / 45%);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    display: block;
+    padding: 1rem !important;
 }
 
 .pms-account-navigation ul {
@@ -1199,7 +1200,9 @@ input[type='submit'] {
     width: 200px;
 }
 
-.pms-account-subscription-details-table tr td:first-child {}
+.pms-account-subscription-details-table tr td:first-child {
+    padding-right: 2rem;
+}
 
 .page-account .pms-account-subscription-details-table tbody {
     display: table;
@@ -1229,7 +1232,7 @@ input[type='submit'] {
     display: inline-block;
     text-decoration: none;
     border: 1px solid;
-    padding: 5px 30px;
+    padding: 0 30px;
     border-radius: 20px;
     width: max-content;
     /* float: right; */
@@ -1243,7 +1246,7 @@ input[type='submit'] {
 }
 
 .pms-account-subscription-details-table td {
-    padding: 0.5rem 0 0.5rem 0;
+    /* padding: 0.5rem 0 0.5rem 0; */
 }
 
 .pms-account-subscription-action-link.pms-account-subscription-action-link__abandon {
