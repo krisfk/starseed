@@ -149,7 +149,7 @@ get_header(); ?>
                     <?php echo get_field('content_5');?>
 
 
-                    <a href="<?php echo get_site_url()?>/multi-dimensional-soul-healing" class="know-more-btn">了解更多</a>
+                    <a href="<?php echo get_site_url()?>/product/多次元靈魂療癒/" class="know-more-btn">了解更多</a>
 
 
                 </div>
