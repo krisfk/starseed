@@ -2319,6 +2319,7 @@ footer {
         border-radius: 30px;
         max-width: 500px;
         margin: 0 auto 5rem auto;
+        text-align: left;
     }
     .main-container .text-end {
         /* text-align: justify !important; */
