@@ -2188,7 +2188,7 @@ footer {
     }
     .content-txt .content-txt-div {
         text-align: center;
-        padding: 0 12px;
+        padding: 0;
     }
     .bottom-container-wrapper .content-txt {
         position: relative;
@@ -2252,7 +2252,7 @@ footer {
     }
     .about-div .content-txt-div {
         text-align: center !important;
-        padding: 0 12px;
+        /* padding: 0 12px; */
     }
     .content-txt-div.text-start {
         text-align: center !important;
