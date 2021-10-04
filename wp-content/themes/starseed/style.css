@@ -1981,7 +1981,7 @@ footer {
     }
     .mobile-logo-word img {
         /* position: absolute; */
-        height: 36px;
+        height: 36px !important;
         /* top: 0; */
     }
     .mobile-logo-a img {
