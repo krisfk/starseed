@@ -1949,6 +1949,10 @@ footer {
     display: none;
 }
 
+.woocommerce-notices-wrapper {
+    position: relative;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
