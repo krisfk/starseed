@@ -984,6 +984,8 @@ form.woocommerce-checkout {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    position: relative;
+    z-index: 10;
 }
 
 #order_review_heading {
