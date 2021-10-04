@@ -1968,8 +1968,9 @@ footer {
 }
 
 #apwp-audio-player-wrp-1 {
-    max-width: 350px;
+    max-width: 600px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .apwp-jplayer-design-overide .jp-jplayer {
