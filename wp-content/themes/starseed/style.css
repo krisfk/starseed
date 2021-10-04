@@ -2017,7 +2017,14 @@ footer {
     color: #662964 !important;
 }
 
-.search-track {}
+.search-track {
+    background-color: #fff !important;
+    color: #fff5f5 !important;
+}
+
+.search-track::placeholder {
+    color: #662964 !important;
+}
 
 .search-track:focus {}
 
