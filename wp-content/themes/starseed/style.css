@@ -1009,6 +1009,8 @@ form.woocommerce-checkout {
     padding: 30px 30px 50px 30px;
     border-radius: 30px;
     max-width: 500px;
+    position: relative;
+    z-index: 10;
 }
 
 #pms-stripe-credit-card-details {
