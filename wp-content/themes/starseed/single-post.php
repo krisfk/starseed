@@ -175,11 +175,11 @@ if( have_rows('content_sections') )
 
 
 <?php
-
-
-
 echo do_shortcode('[apwp_player playlist_id="21"]'); 
+?>
 
+
+<?php
 if(get_field('have_playlist'))
 {
     ?>
