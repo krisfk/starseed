@@ -14,14 +14,13 @@ get_header();
 
 
 <div class="container position-relative">
-    <img class="star7 fadein-ele"
-        style="  width: 200px !important;position: absolute;top: 49px;left: 485px;z-index: -10;"
+    <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
     <img class="star8 fadein-ele left-star"
         style="  width: 305px !important;position: absolute;top: 240px;left: -140px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
     <img class="star9 fadein-ele"
-        style="  width: 370px !important;position: absolute;top: 520px;left: 543px;z-index: -10;"
+        style="  width: 370px !important;position: absolute;top: 520px;left: 543px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
     <img class="star10 fadein-ele right-star"
         style="  width: 370px !important;position: absolute;top: 600;right: -165px;z-index: 0;"
