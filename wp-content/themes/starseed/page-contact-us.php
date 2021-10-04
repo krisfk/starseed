@@ -50,23 +50,24 @@ get_header(); ?>
                 </div>
 
 
-                <div>
+                <div class="mt-4">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-2.png" alt=""></div>
-                    <div> <a href="https://galacticstarseedacademy.com/"
+                    <div class="mt-2"> <a href="https://galacticstarseedacademy.com/"
                             target="_blank">https://galacticstarseedacademy.com/</a></div>
                 </div>
 
 
-                <div>
+                <div class="mt-4">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-3.png" alt=""></div>
-                    <div><a href="https://www.instagram.com/g.s.a.official/"
+                    <div class="mt-2"><a href="https://www.instagram.com/g.s.a.official/"
                             target="_blank">https://www.instagram.com/g.s.a.official/</a></div>
                 </div>
 
 
-                <div>
+                <div class="mt-4">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-4.png" alt=""></div>
-                    <div> <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a></div>
+                    <div class="mt-2"> <a href="mailto:boscofth0506@gmail.com"
+                            target="_blank">boscofth0506@gmail.com</a></div>
                 </div>
             </div>
 
