@@ -46,7 +46,7 @@ get_header(); ?>
             <div class="contact-table-div mt-5">
                 <div>
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-1.png" alt=""></div>
-                    <div>5340 8275</div>
+                    <div class="mt-2">5340 8275</div>
                 </div>
 
 
