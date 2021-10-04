@@ -39,8 +39,9 @@ get_header(); ?>
 
         <div class="mt-4">
 
-            我們樂意為您提供任何協助
-
+            <div>
+                我們樂意為您提供任何協助
+            </div>
 
             <div class="contact-table-div mt-5">
                 <div>
