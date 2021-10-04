@@ -69,6 +69,40 @@ get_header(); ?>
 
 
 <div class="inner-container pb-6 mt-5 line-height">
+
+
+    <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                ?>
+    <div class="form-div mt-5 form-div-login">
+
+        <div class="text-center">
+            <h4>會員登入</h4>
+        </div>
+        <?php
+if($_GET['f']==1){
+    ?>
+        <div class="wrong-login-msg">登入資料不正確</div>
+
+        <?php
+
+}
+?>
+        <?php
+
+wp_login_form();
+?>
+
+
+        <a href="<?php echo get_site_url();?>/register" class="d-inline-block register-a">新會員加入</a>
+
+
+
+    </div>
+    <?php
+            }?>
+
+
     <div class="row align-items-top justify-content-center gx-5 mobile-column-reverse">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top " id="form-top">
