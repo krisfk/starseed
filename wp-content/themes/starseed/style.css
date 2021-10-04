@@ -2028,6 +2028,13 @@ footer {
 
 .search-track:focus {}
 
+.apwp-jplayer-design-overide div.jp-type-playlist div.jp-playlist .jp-artist {
+    padding-bottom: 10px;
+    display: block;
+    font-size: 0.8rem;
+    margin: 0.2rem 0 0 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
