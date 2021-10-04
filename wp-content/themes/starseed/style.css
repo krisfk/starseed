@@ -1971,6 +1971,13 @@ footer {
     max-width: 350px;
 }
 
+.apwp-jplayer-design-overide .jp-jplayer {
+    height: 0px !important;
+    position: relative;
+    padding-top: 100%;
+    overflow: hidden;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
