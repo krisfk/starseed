@@ -1963,6 +1963,10 @@ footer {
     position: relative;
 }
 
+.single-post .about-div-wrapper {
+    background: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
