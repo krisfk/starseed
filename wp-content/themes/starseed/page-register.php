@@ -16,12 +16,12 @@ get_header();
 <div class="container position-relative">
     <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
-    <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;bottom: 20px;left: -140px;"
+    <img class="star8 fadein-ele" style="  width: 305px !important;position: absolute;top: 240px;left: -140px;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star8.png" alt="">
-    <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;bottom: -120px;left: 543px;"
+    <img class="star9 fadein-ele" style="  width: 370px !important;position: absolute;top: 520px;left: 543px;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star6.png" alt="">
     <img class="star10 fadein-ele"
-        style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
+        style="  width: 370px !important;position: absolute;top: 600;right: -165px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
     <?php
