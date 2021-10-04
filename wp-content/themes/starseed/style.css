@@ -2018,12 +2018,12 @@ footer {
 }
 
 .search-track {
-    background-color: #662964 !important;
-    color: #fff5f5 !important;
+    background-color: #fff !important;
+    color: #6c336a !important;
 }
 
 .search-track::placeholder {
-    color: #6c336a !important;
+    color: #8a4387 !important;
 }
 
 .search-track:focus {}
