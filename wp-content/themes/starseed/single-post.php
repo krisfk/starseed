@@ -324,7 +324,7 @@ $(function() {
 
 
     $('.search-track-div').insertBefore($('.slimScrollDiv'));
-
+    // 
     $('.slides').slick({
         dots: true,
     });
