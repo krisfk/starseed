@@ -45,27 +45,27 @@ get_header(); ?>
 
             <div class="contact-table-div mt-5">
                 <div>
-                    <div>Whatsapp:</div>
+                    <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-1.png" alt=""></div>
                     <div>5340 8275</div>
                 </div>
 
 
                 <div>
-                    <div>Facebook:</div>
+                    <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-2.png" alt=""></div>
                     <div> <a href="https://galacticstarseedacademy.com/"
                             target="_blank">https://galacticstarseedacademy.com/</a></div>
                 </div>
 
 
                 <div>
-                    <div>Instagram:</div>
+                    <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-3.png" alt=""></div>
                     <div><a href="https://www.instagram.com/g.s.a.official/"
                             target="_blank">https://www.instagram.com/g.s.a.official/</a></div>
                 </div>
 
 
                 <div>
-                    <div>Email:</div>
+                    <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-4.png" alt=""></div>
                     <div> <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a></div>
                 </div>
             </div>
