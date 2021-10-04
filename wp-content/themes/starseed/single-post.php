@@ -302,6 +302,8 @@ if(get_field('have_playlist'))
 
 $(function() {
 
+
+
     $('.search-track').bind('keyup', function() {
 
         var searchString = $(this).val();
@@ -320,6 +322,8 @@ $(function() {
     });
 
 
+
+    $('.search-track-div').insertBefore($('.slimScrollDiv'));
 
     $('.slides').slick({
         dots: true,
