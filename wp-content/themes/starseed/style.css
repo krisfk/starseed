@@ -1940,9 +1940,19 @@ footer {
     display: none;
 }
 
+.mobile-form-div-login {
+    display: none;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
+    .mobile-form-div-login {
+        display: block;
+    }
+    .desktop-form-div-login {
+        display: none;
+    }
     .justify-content-center {
         text-align: center !important;
     }
