@@ -149,7 +149,7 @@ wp_login_form();
             <?php if( !pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 ?>
-            <div class="form-div mt-5 form-div-login mobile-form-div-login">
+            <div class="form-div mt-0 form-div-login mobile-form-div-login">
 
                 <div class="text-center">
                     <h4>會員登入</h4>
