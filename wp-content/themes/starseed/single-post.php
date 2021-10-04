@@ -302,6 +302,24 @@ if(get_field('have_playlist'))
 
 $(function() {
 
+    $('.search-track').bind('keyup', function() {
+
+        var searchString = $(this).val();
+
+        $(".duration-playlist li").each(function(index, value) {
+
+            currentName = $(value).text();
+            if (currentName.toUpperCase().indexOf(searchString.toUpperCase()) > -1) {
+                $(value).show();
+            } else {
+                $(value).hide();
+            }
+
+        });
+
+    });
+
+
 
     $('.slides').slick({
         dots: true,
