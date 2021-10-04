@@ -1980,6 +1980,37 @@ footer {
     overflow: hidden;
 }
 
+.jp-video .jp-progress .jp-play-bar:before,
+.jp-type-single .jp-progress .jp-play-bar:before,
+.jp-volume-bar-value::before,
+.apwp-jplayer-design-overide .jp-type-single .jp-details,
+.apwp-jplayer-design-overide .controller-common,
+.apwp-jplayer-design-overide .jp-play-bar,
+.jp-volume-bar-value,
+.apwp-jplayer-design-overide .jp-state-playing .jp-play {
+    background: #662964;
+}
+
+.apwp-jplayer-design-overide .jp-state-looped .jp-repeat::before,
+.apwp-jplayer-design-overide .jp-volume-controls button::before {
+    color: #662964;
+}
+
+.apwp-audio-player-wrp .controller-common,
+.apwp-audio-player-wrp .jp-play-bar,
+.apwp-audio-player-wrp .jp-volume-bar-value,
+.apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist li.jp-playlist-current::before {
+    background-color: #662964;
+}
+
+.apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist a.jp-playlist-current,
+.apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist a:hover,
+.apwp-audio-player-wrp .jp-state-looped .jp-repeat::before,
+.apwp-audio-player-wrp .playlist-btn.active::before,
+.apwp-audio-player-wrp .jp-state-shuffled .jp-shuffle::before {
+    color: #662964;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
