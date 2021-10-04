@@ -39,10 +39,37 @@ get_header(); ?>
 
         <div class="mt-4">
 
-            我們樂意為您提供任何協助 <br>
+            我們樂意為您提供任何協助
 
 
             <div class="contact-table-div mt-5">
+                <div>
+                    <div>Whatsapp:</div>
+                    <div>5340 8275</div>
+                </div>
+
+
+                <div>
+                    <div>Facebook:</div>
+                    <div> <a href="https://galacticstarseedacademy.com/"
+                            target="_blank">https://galacticstarseedacademy.com/</a></div>
+                </div>
+
+
+                <div>
+                    <div>Instagram:</div>
+                    <div><a href="https://www.instagram.com/g.s.a.official/"
+                            target="_blank">https://www.instagram.com/g.s.a.official/</a></div>
+                </div>
+
+
+                <div>
+                    <div>Email:</div>
+                    <div> <a href="mailto:boscofth0506@gmail.com" target="_blank">boscofth0506@gmail.com</a></div>
+                </div>
+            </div>
+
+            <!-- <div class="contact-table-div mt-5">
                 <table class="mx-auto text-start contact-table mt-5">
                     <tr>
                         <td>Whatsapp:</td>
@@ -71,7 +98,7 @@ get_header(); ?>
                         </td>
                     </tr>
                 </table>
-            </div>
+            </div> -->
 
 
             <br>
