@@ -317,11 +317,13 @@ body {
 }
 
 .form-div {
-    background: url(./assets/images/form-bg-stripe.jpg) repeat-y;
+    background: rgb(93 35 94 / 45%);
     background-size: 100% 100%;
     padding: 30px;
     border-radius: 30px;
     max-width: 500px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .form-div h4 {
@@ -1130,7 +1132,6 @@ input[type='submit'] {
     width: 100%;
     background: rgb(93 35 94 / 45%);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     display: block;
     padding: 1rem !important;
 }
@@ -2104,7 +2105,7 @@ footer {
         /* margin: 1rem 0 0 0; */
         /* background: rgb(95 34 63 / 80%); */
         /* background: rgba(96, 39, 98, 0.65); */
-        backdrop-filter: blur(5px);
+        /* backdrop-filter: blur(5px); */
         -webkit-backdrop-filter: blur(5px);
     }
     .mobile-menu-submenu li a {
