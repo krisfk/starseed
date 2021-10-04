@@ -321,9 +321,13 @@ $(function() {
 
     });
 
-    $(window).load(function() {
+
+
+    $(window).on('load', function() {
         $('.search-track-div').insertBefore($('.slimScrollDiv'));
-    })
+
+    });
+
 
 
     // 
