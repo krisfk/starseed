@@ -13,7 +13,7 @@ get_header();
 ?>
 
 
-<div class="container position-relative pb-6">
+<div class="container position-relative pt-5">
     <img class="star7 fadein-ele" style="  width: 200px !important;position: absolute;top: 49px;left: 485px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star7.png" alt="">
     <img class="star8 fadein-ele left-star"
