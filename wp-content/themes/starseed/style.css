@@ -1898,7 +1898,7 @@ footer {
     display: inline;
 }
 
-.contact-table a {
+.contact-table-div a {
     text-decoration: underline;
     color: #fff !important;
 }
