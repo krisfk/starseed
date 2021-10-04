@@ -321,9 +321,11 @@ $(function() {
 
     });
 
+    $(window).load(function() {
+        $('.search-track-div').insertBefore($('.slimScrollDiv'));
+    })
 
 
-    $('.search-track-div').insertBefore($('.slimScrollDiv'));
     // 
     $('.slides').slick({
         dots: true,
