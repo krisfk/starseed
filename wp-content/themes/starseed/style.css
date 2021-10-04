@@ -1973,6 +1973,12 @@ footer {
     width: 100%;
 }
 
+#search-track-div {
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .apwp-jplayer-design-overide .jp-jplayer {
     height: 0px !important;
     position: relative;
