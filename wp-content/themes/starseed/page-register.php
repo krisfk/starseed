@@ -23,8 +23,8 @@ get_header();
     <img class="star10 fadein-ele"
         style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
         src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
-</div>
-<?php
+
+    <?php
 /* Start the Loop */
 while ( have_posts() ) :
 	the_post();
@@ -35,5 +35,7 @@ while ( have_posts() ) :
 		comments_template();
 	}
 endwhile; // End of the loop.
-
+?>
+</div>
+<?php
 get_footer();
