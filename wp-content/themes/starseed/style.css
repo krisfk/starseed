@@ -2051,6 +2051,12 @@ span.jp-artist {
     margin-bottom: 5px;
 }
 
+.apwp-audio-player-wrp .playlist-block,
+.apwp-audio-player-wrp .playlist-block-style-two,
+.apwp-audio-player-wrp .jp-playlist.playlist-block {
+    background: #b03e7c;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
