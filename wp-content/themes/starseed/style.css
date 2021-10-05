@@ -2091,6 +2091,17 @@ span.jp-artist {
     font-family: 'FontAwesome';
 }
 
+.apwp-jplayer-design-overide .playlist-block,
+.apwp-jplayer-design-overide .playlist-block-style-two,
+.apwp-jplayer-design-overide .playlist-block-style-three,
+.apwp-jplayer-design-overide .playlist-block-style-four,
+.apwp-jplayer-design-overide .playlist-block-style-five {
+    padding: 20px 30px 0px 30px;
+    background: #f7f7f7;
+    border-right: none;
+    /* border-right: 6px solid #b7b7b7; */
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
