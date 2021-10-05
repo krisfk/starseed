@@ -1994,7 +1994,7 @@ footer {
 .apwp-jplayer-design-overide .jp-play-bar,
 .jp-volume-bar-value,
 .apwp-jplayer-design-overide .jp-state-playing .jp-play {
-    background: #1a2064 !important;
+    background: #1c1f5b !important;
 }
 
 .apwp-jplayer-design-overide .jp-state-looped .jp-repeat::before,
@@ -2077,18 +2077,6 @@ span.jp-artist {
     color: #fff;
     border: 1px solid #009be3;
     background-color: #eee;
-}
-
-.apwp-jplayer-design-overide .controller-common:before {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    font-size: 10px;
-    color: #1c1f5b;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'FontAwesome';
 }
 
 @media only screen and (max-width: 1920px) {}
