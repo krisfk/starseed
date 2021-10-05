@@ -2068,6 +2068,17 @@ span.jp-artist {
     font-family: 'FontAwesome';
 }
 
+.jp-audio,
+.jp-audio-stream,
+.jp-video {
+    font-size: 16px;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    border: 1px solid #009be3;
+    background-color: #eee;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
