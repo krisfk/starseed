@@ -2040,6 +2040,10 @@ span.jp-artist {
     color: #fff;
 }
 
+.apwp-jplayer-design-overide .jp-playlist-item h4 {
+    color: #fff;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
