@@ -2079,6 +2079,18 @@ span.jp-artist {
     background-color: #eee;
 }
 
+.apwp-jplayer-design-overide .controller-common:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    color: #191d59;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'FontAwesome';
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
