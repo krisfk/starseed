@@ -301,7 +301,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 $('.level-1').mouseenter(function() {
 
                                     if ($(window).width() > 1200) {
-                                        $('.mobile-menu-submenu').clearQueue().fadeOut(0);
+                                        $('.mobile-menu-submenu').clearQueue().slideUp(200);
 
 
                                         if ($(this).hasClass('parent')) {
