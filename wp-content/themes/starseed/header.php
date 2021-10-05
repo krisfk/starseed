@@ -282,12 +282,12 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                     } else {
                                         $('.top-menu-ul').fadeOut(0);
-                                        // $('.top-menu-container').css({
-                                        //     'height': 'auto'
-                                        // });
-                                        $('.top-menu-container').animate({
+                                        $('.top-menu-container').css({
                                             'height': 'auto'
-                                        }, 200)
+                                        });
+                                        // $('.top-menu-container').animate({
+                                        //     'height': 'auto'
+                                        // }, 200)
 
 
                                     }
