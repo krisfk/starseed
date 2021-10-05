@@ -2044,6 +2044,13 @@ span.jp-artist {
     color: #fff;
 }
 
+.apwp-jplayer-design-overide .audio-controller-wrap {
+    padding: 20px 20px 10px 20px;
+    background: #b03e7c;
+    min-height: 150px;
+    margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
