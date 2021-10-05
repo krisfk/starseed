@@ -286,7 +286,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                         //     'height': 'auto'
                                         // });
                                         $('.top-menu-container').animate({
-                                            'height': 'auto'
+                                            'height': '77px'
                                         }, 200)
 
 
