@@ -1994,19 +1994,19 @@ footer {
 .apwp-jplayer-design-overide .jp-play-bar,
 .jp-volume-bar-value,
 .apwp-jplayer-design-overide .jp-state-playing .jp-play {
-    background: #662964 !important;
+    background: #1a2064 !important;
 }
 
 .apwp-jplayer-design-overide .jp-state-looped .jp-repeat::before,
 .apwp-jplayer-design-overide .jp-volume-controls button::before {
-    color: #662964 !important;
+    color: #fff !important;
 }
 
 .apwp-audio-player-wrp .controller-common,
 .apwp-audio-player-wrp .jp-play-bar,
 .apwp-audio-player-wrp .jp-volume-bar-value,
 .apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist li.jp-playlist-current::before {
-    background-color: #662964 !important;
+    background-color: #fff !important;
 }
 
 .apwp-audio-player-wrp div.jp-type-playlist div.jp-playlist a.jp-playlist-current,
@@ -2014,7 +2014,7 @@ footer {
 .apwp-audio-player-wrp .jp-state-looped .jp-repeat::before,
 .apwp-audio-player-wrp .playlist-btn.active::before,
 .apwp-audio-player-wrp .jp-state-shuffled .jp-shuffle::before {
-    color: #662964 !important;
+    color: #fff !important;
 }
 
 .search-track {
