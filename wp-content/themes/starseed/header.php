@@ -282,9 +282,13 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
 
                                     } else {
                                         $('.top-menu-ul').fadeOut(0);
-                                        $('.top-menu-container').css({
+                                        // $('.top-menu-container').css({
+                                        //     'height': 'auto'
+                                        // });
+                                        $('.top-menu-container').animate({
                                             'height': 'auto'
-                                        });
+                                        }, 200)
+
 
                                     }
 
@@ -301,7 +305,7 @@ if( pms_is_member_of_plan( array( 178 ) )  || $expired)
                                 $('.level-1').mouseenter(function() {
 
                                     if ($(window).width() > 1200) {
-                                        $('.mobile-menu-submenu').clearQueue().slideUp(200);
+                                        $('.mobile-menu-submenu').clearQueue().fadeOut(0);
 
 
                                         if ($(this).hasClass('parent')) {
