@@ -2057,6 +2057,17 @@ span.jp-artist {
     background: #b03e7c !important;
 }
 
+.apwp-jplayer-design-overide .jp-toggles button:before {
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'FontAwesome';
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
