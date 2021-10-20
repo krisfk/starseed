@@ -63,7 +63,7 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
         </div>
 
 
-        <div class="row">
+        <div class="row mt-5">
 
             <div class="col-6">
                 <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
