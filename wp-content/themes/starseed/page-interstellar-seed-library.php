@@ -62,7 +62,18 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
             //echo get_the_content();?>
         </div>
 
-        <div>fdsf</div>
+        <?php 
+    $args = array(
+      'orderby' => 'id',
+      'hide_empty'=> 0,
+      'child_of' => 5, //Child From Boxes Category 
+  );
+  $categories = get_categories($args);
+  foreach ($categories as $cat) {
+echo 1;
+  }
+  ?>
+        <!-- <div></div> -->
 
     </div>
 </div>
