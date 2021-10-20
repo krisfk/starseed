@@ -56,7 +56,7 @@ get_header(); ?>
             </h1>
         </div>
 
-        <div class="mt-4 line-height mb-4">
+        <div class="mt-4 line-height mb-5">
             <?php 
             echo get_the_content();
             //echo get_the_content();?>
