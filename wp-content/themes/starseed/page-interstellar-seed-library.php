@@ -63,15 +63,10 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
         </div>
 
         <?php 
-    $args = array(
-      'orderby' => 'id',
-      'hide_empty'=> 0,
-      'child_of' => 5, //Child From Boxes Category 
-  );
-  $categories = get_categories($args);
-  foreach ($categories as $cat) {
-echo 1;
-  }
+   $categories = get_categories();
+   foreach($categories as $category) {
+      echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+   }
   ?>
         <!-- <div></div> -->
 
