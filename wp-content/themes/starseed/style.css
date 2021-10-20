@@ -2109,10 +2109,12 @@ span.jp-artist {
     padding: 5px 30px;
     border-radius: 20px;
     width: max-content;
-    float: right;
+    /* float: right; */
     margin: -8px 0 0 0;
     background: transparent;
     color: #fff;
+    width: fit-content !important;
+    margin: 2rem 0.5rem !important;
 }
 
 @media only screen and (max-width: 1920px) {}
