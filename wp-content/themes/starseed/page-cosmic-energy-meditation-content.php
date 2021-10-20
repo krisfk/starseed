@@ -70,13 +70,17 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
         </div>
 
 
-        <div class="row">
+        <div class="text-center">
+            <a href="#"> <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-1.jpg" alt="">
+                <div>廣東話專區</div>
+            </a>
 
-            <div class="col-6"><img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-1.jpg" alt="">
-            </div>
-            <div class="col-6"><img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-2.jpg" alt="">
-            </div>
+            <a href="#"> <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-2.jpg" alt="">
+                <div>普通話專區</div>
+            </a>
         </div>
+
+
         <?php
 // echo do_shortcode('[apwp_player playlist_id="21"]'); 
 ?>
