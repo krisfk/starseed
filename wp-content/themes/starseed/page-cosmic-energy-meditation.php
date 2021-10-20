@@ -51,14 +51,14 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
             <h1>
-                <?php echo single_term_title();?>
+                <?php echo get_the_title();?>
                 <?php //echo get_the_title();?>
             </h1>
         </div>
 
         <div class="mt-4 line-height">
             <?php 
-            the_archive_description();
+            get_the_content();
             //echo get_the_content();?>
         </div>
 
