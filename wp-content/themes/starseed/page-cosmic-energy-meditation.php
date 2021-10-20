@@ -63,6 +63,10 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
         </div>
 
 
+        <a href="#" class="page-reg-btn">揚升之鑰會員登入</a>
+        <a href="#" class="page-reg-btn">新會員加入</a>
+
+
         <div class="row mt-5">
 
             <div class="col-6">
