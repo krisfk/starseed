@@ -2117,6 +2117,14 @@ span.jp-artist {
     margin: 2rem 0.5rem !important;
 }
 
+.page-reg-btn:hover {
+    background-color: #dfdcde;
+    text-decoration: none;
+    background-image: none;
+    color: #515151;
+    border: 1px solid #fff;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
