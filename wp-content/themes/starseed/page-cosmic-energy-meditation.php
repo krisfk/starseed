@@ -58,7 +58,7 @@ fdsfsdf
 
         <div class="mt-4 line-height">
             <?php 
-            get_the_content();
+            echo get_the_content();
             //echo get_the_content();?>
         </div>
 
