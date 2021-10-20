@@ -42,10 +42,10 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 ?>
 <?php 
 // echo get_queried_object()->term_id;
-$category_img = z_taxonomy_image_url(get_queried_object()->term_id);
+// $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 // get_queried_object()->term_id
 ?>
-
+fdsfsdf
 <div class="inner-container  mt-5 text-center">
     <div class="row align-items-center justify-content-center gx-5">
 
