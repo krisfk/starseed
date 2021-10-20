@@ -18,6 +18,15 @@ get_header(); ?>
 
 
 
+<?php
+if( !pms_is_member_of_plan( array( 178 ) ) ) 
+{
+    wp_redirect(get_site_url().'/cosmic-energy-meditation-content');
+    exit;
+}
+?>
+
+
 
 <img class="star0 fadein-ele" style=" width: 500px !important;position: absolute;top: 82px;left: -444px;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star0.png" alt="">
