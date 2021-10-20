@@ -65,7 +65,10 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
         <?php 
    $categories = get_categories();
    foreach($categories as $category) {
-      echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+    //   echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
+    ?>
+        <h2><?php echo $category->name;?></h2>
+        <?php
    }
   ?>
         <!-- <div></div> -->
