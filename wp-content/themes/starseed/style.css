@@ -2127,7 +2127,7 @@ span.jp-artist {
 
 .lang-track-a {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 1rem 0.5rem;
     color: #fff;
     text-decoration: none;
 }
