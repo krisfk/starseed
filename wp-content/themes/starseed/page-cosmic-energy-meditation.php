@@ -52,7 +52,7 @@ fdsfsdf
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
             <h1>
                 <?php echo get_the_title();?>
-                <?php //echo get_the_title();?>
+                <?php echo get_the_title();?>
             </h1>
         </div>
 
