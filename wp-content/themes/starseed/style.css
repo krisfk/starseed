@@ -2102,7 +2102,18 @@ span.jp-artist {
     /* border-right: 6px solid #b7b7b7; */
 }
 
-.page-reg-btn {}
+.page-reg-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 30px;
+    border-radius: 20px;
+    width: max-content;
+    float: right;
+    margin: -8px 0 0 0;
+    background: transparent;
+    color: #fff;
+}
 
 @media only screen and (max-width: 1920px) {}
 
