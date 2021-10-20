@@ -63,8 +63,8 @@ get_header(); ?>
         </div>
 
 
-        <a href="#" class="page-reg-btn">揚升之鑰會員登入</a>
-        <a href="#" class="page-reg-btn">新會員加入</a>
+        <a href="<?php echo get_site_url();?>/key" class="page-reg-btn">揚升之鑰會員登入</a>
+        <a href="<?php echo get_site_url();?>/register" class="page-reg-btn">新會員加入</a>
 
 
         <div class="row mt-5">
