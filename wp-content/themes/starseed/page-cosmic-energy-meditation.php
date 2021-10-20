@@ -45,7 +45,7 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 // $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 // get_queried_object()->term_id
 ?>
-fdsfsdf
+
 <div class="inner-container  mt-5 text-center">
     <div class="row align-items-center justify-content-center gx-5">
 
@@ -60,6 +60,19 @@ fdsfsdf
             <?php 
             echo get_the_content();
             //echo get_the_content();?>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-6">
+                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
+                    alt="">
+            </div>
+            <div class="col-6">
+                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
+                    alt="">
+            </div>
         </div>
 
     </div>
