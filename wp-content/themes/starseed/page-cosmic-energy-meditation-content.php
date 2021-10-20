@@ -125,10 +125,38 @@ echo do_shortcode('[apwp_player playlist_id="21"]');
 </div>
 
 
-
-
 <script type="text/javascript">
 $(function() {
+
+
+
+    $('.search-track').bind('keyup', function() {
+
+        var searchString = $(this).val();
+
+        $(".duration-playlist li").each(function(index, value) {
+
+            currentName = $(value).text();
+            if (currentName.toUpperCase().indexOf(searchString.toUpperCase()) > -1) {
+                $(value).show();
+            } else {
+                $(value).hide();
+            }
+
+        });
+
+    });
+
+
+
+    $(window).on('load', function() {
+        $('.search-track-div').insertBefore($('.slimScrollDiv'));
+
+    });
+
+
+
+    // 
     $('.slides').slick({
         dots: true,
     });
