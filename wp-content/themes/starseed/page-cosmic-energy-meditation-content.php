@@ -71,11 +71,13 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 
 
         <div class="text-center">
-            <a href="#"> <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-1.jpg" alt="">
+            <a href="#" class="lang-track-a"> <img
+                    src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-1.jpg" alt="">
                 <div>廣東話專區</div>
             </a>
 
-            <a href="#"> <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-2.jpg" alt="">
+            <a href="#" class="lang-track-a"> <img
+                    src="http://64.227.13.14/starseed/wp-content/uploads/2021/10/lang-2.jpg" alt="">
                 <div>普通話專區</div>
             </a>
         </div>
