@@ -104,47 +104,6 @@ fdsfsdf
 
 
 
-    <?php
-if (have_posts()) {
-    while(have_posts())
-    {
-        the_post();
-        ?>
-    <div class="course-entry-div mb-5">
-        <div class="row">
-
-            <div class="entry-row-bg col-lg-5 col-md-5 col-sm-12 col-12  position-relative overflow-hidden"
-                style="background: url(<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : $category_img;?>); background-size:auto 100%;">
-                <div class="course-entry-rect"></div>
-                <img class="course-thumbnail"
-                    src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : $category_img;?>"
-                    alt="">
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-12  text-start p-5">
-                <h2><?php 
-                     echo get_the_title();
-                    ?>
-                </h2>
-
-                <div class="content-txt-div p-0">
-                    <?php 
-                     echo get_the_content();
-                     ?>
-
-                </div>
-
-                <div class="text-end"> <a href="<?php echo get_permalink()?>" class="know-more-btn2">了解更多</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <?php
-    }
-}
-       
-?>
-
 
 
 
