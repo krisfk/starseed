@@ -69,6 +69,14 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
     ?>
         <div class="article-slick-div mt-5">
             <h2><?php echo $category->name;?></h2>
+
+            <div class="carousel">
+                <div class="">1</div>
+                <div class="">2</div>
+                <div class="">3</div>
+                <div class="">4</div>
+                <div class="">5</div>
+            </div>
         </div>
         <?php
    }
@@ -126,32 +134,26 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
 <script type="text/javascript">
 $(function() {
-    $('.slides').slick({
+
+    $('.carousel').slick({
+        slidesToShow: 3,
         dots: true,
+        autoplay: true,
+        appendDots: $(".slide-m-dots"),
+        prevArrow: $(".slide-m-prev"),
+        nextArrow: $(".slide-m-next"),
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
     });
-
-    $('.soul-healing-icon-a').click(function() {
-
-        $('.soul-healing-icon-a').css({
-            'opacity': 0.5
-        })
-
-        $('.soul-healing-icon-a').removeClass('active');
-        $(this).toggleClass('active');
-
-
-        $('.soul-healing-icon-a.active').css({
-            'opacity': 1
-        })
-
-
-        var group = $(this).attr('data-group');
-        var content = $(this).attr('rel');
-        $('.soul-healing-content').html('')
-
-        $('.soul-healing-content-' + group).html(content)
-
-    })
 
 })
 </script>
