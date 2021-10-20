@@ -63,21 +63,7 @@ get_header(); ?>
         </div>
 
 
-        <a href="<?php echo get_site_url();?>/key" class="page-reg-btn">揚升之鑰會員登入</a>
-        <a href="<?php echo get_site_url();?>/register" class="page-reg-btn">新會員加入</a>
 
-
-        <div class="row mt-3">
-
-            <div class="col-6">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
-                    alt="">
-            </div>
-            <div class="col-6">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
-                    alt="">
-            </div>
-        </div>
 
     </div>
 </div>
