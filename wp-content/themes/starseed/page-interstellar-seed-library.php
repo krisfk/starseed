@@ -223,6 +223,11 @@ foreach($categories as $category) {
 <script type="text/javascript">
 $(function() {
 
+    $('.article-filter-select').change(function() {
+
+        alert(4);
+    })
+
     $('.carousel').slick({
         slidesToShow: 3,
         dots: true,
