@@ -2390,6 +2390,10 @@ span.jp-artist {
         width: fit-content !important;
         margin: 1rem auto;
     }
+    .search-input {
+        max-width: 300px;
+        margin: 1rem auto;
+    }
     .text-center.mobile-align,
     .text-end.mobile-align,
     .text-start.mobile-align {

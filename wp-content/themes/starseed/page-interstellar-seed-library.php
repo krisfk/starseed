@@ -67,7 +67,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
             <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
 
-                <input type="text" class="form-control">
+                <input type="text" class="form-control search-input">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12 "><select class="form-select article-filter-select"
                     aria-label="Default select example">
