@@ -2198,6 +2198,10 @@ span.jp-artist {
     text-decoration: none !important;
 }
 
+.search-results article {
+    margin: 1rem 0 0 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
