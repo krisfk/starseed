@@ -80,7 +80,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
                     'post_type' => 'post',
                     'tax_query' => array(
                         array(
-                        // 'taxonomy' => 'recipe_tx',
+                        'taxonomy' => 'category',
                         'field' => 'term_id',
                         'terms' => $category->term_id
                          )
