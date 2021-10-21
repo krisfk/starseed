@@ -228,7 +228,7 @@ $(function() {
         var value = $(this).val();
 
         $("html, body").animate({
-            scrollTop: $('#' + value).offset().top - 200
+            scrollTop: $('#' + value).offset().top
         }, 500);
 
         // alert(value);
