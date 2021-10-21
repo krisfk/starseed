@@ -63,113 +63,12 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
         </div>
 
 
-        <div class="row filter-row mt-4">
-
-            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-
-                <input type="text" class="form-control search-input">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12 "><select class="form-select article-filter-select"
-                    aria-label="Default select example">
-                    <option selected>文章類別</option>
-                    <?php
-
-$categories = get_categories();
-foreach($categories as $category) {
-    ?>
-                    <option value="cate_id_<?php echo $category->term_id;?>"><?php echo $category->name?></option>
-                    <?php
-}
-?>
-
-                    <!-- <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option> -->
-                </select></div>
-
-        </div>
-
-        <?php 
-   $categories = get_categories();
-   foreach($categories as $category) {
-    //   echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
-    ?>
-        <div class="article-slick-div mt-5" id="cate_id_<?php echo $category->term_id;?>">
-            <h2><?php echo $category->name;
-            ?></h2>
-
-            <div class="carousel">
-
-                <?php 
-                
-                $args = array('cat' => $category->term_id, 'orderby' => 'post_date', 'order' => 'DESC', 'post_status' => 'publish');
-
-                    
-                $query = new WP_Query( $args ); 
-                while ( $query->have_posts() ) {
-                    $query->the_post();
-                
-                ?>
-                <a href="<?php echo get_permalink();?>" class="post-block">
-
-                    <?php
-                    // echo get_the_ID(); 
-                    $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' );
-                    
-                    
-                    // echo $image[0];
-                    ?>
-
-                    <img class="w-100" src="<?php echo $image[0];?>" alt="">
-                    <div><?php echo get_the_content();?></div>
-                </a>
-                <?php
-                
-                }?>
-
-            </div>
-        </div>
-        <?php
-   }
-  ?>
-        <!-- <div></div> -->
 
 
-        <!-- <div class="carousel2">
-            <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a>
-            <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a>
-            <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a>
-            <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a> <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a> <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a> <a href="#" class="post-block">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                    alt="">
-                <div>fdsfds</div>
-            </a>
 
-        </div> -->
+
+
+
 
     </div>
 </div>
