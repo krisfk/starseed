@@ -96,6 +96,17 @@ foreach($categories as $category) {
     //   echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
     ?>
         <div class="article-slick-div mt-5" id="cate_id_<?php echo $category->term_id;?>">
+
+            <img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
+                style="position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
+                src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+                alt="">
+            <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
+                style="position: absolute;top: <?php echo rand(200,400); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
+                src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+                alt="">
+
+
             <h2><?php echo $category->name;
             ?></h2>
 
