@@ -63,7 +63,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
         </div>
 
 
-        <div class="row filter-row">
+        <div class="row filter-row mt-4">
 
             <div class="col-8">
 
