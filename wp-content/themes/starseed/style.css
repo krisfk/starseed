@@ -2145,8 +2145,16 @@ span.jp-artist {
 
 .post-block {
     margin: 0 0.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     background: #5d235e;
+    text-align: left;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.post-block img {
+    padding: 0 0 0.5rem 0;
 }
 
 @media only screen and (max-width: 1920px) {}
