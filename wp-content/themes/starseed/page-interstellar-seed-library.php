@@ -71,34 +71,9 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
             <h2><?php echo $category->name;?></h2>
 
             <div class="carousel">
+
+                <?php print_r($category->name);?>
                 <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a>
-                <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a>
-                <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a>
-                <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a> <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a> <a href="#" class="post-block">
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
-                    <div>fdsfds</div>
-                </a> <a href="#" class="post-block">
                     <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
                         alt="">
                     <div>fdsfds</div>
