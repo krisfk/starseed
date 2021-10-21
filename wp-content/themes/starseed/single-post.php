@@ -187,7 +187,7 @@ if( have_rows('content_sections') )
 if(get_field('have_playlist'))
 {
     ?>
-<div class="playlist-div container mt-5 text-center pb-5 inner-container pe-3 ps-3">
+<div class="playlist-div container mt-5 text-center pb-5 inner-container pe-3 ps-3 d-none">
     <h2 class="mt-4">播放列</h2>
     <div class="mt-4">
 
