@@ -69,10 +69,10 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
     ?>
         <div class="article-slick-div mt-5">
             <h2><?php echo $category->name;
-            print_r($category);
+            // print_r($category);
             ?></h2>
 
-            <div class="carousel">
+            <div class="carousel" id="cate_id_<?php echo $category->term_id;?>">
 
                 <?php 
                 
