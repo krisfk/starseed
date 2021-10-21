@@ -2161,6 +2161,18 @@ span.jp-artist {
     padding: 0 0 0.5rem 0;
 }
 
+.slick-dots {
+    position: relative;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    list-style: none;
+    text-align: center;
+    bottom: 0px !important;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
