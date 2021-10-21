@@ -2153,6 +2153,10 @@ span.jp-artist {
     text-decoration: none;
 }
 
+.post-block:hover {
+    color: #fff;
+}
+
 .post-block img {
     padding: 0 0 0.5rem 0;
 }
