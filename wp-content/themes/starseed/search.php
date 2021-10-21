@@ -31,7 +31,7 @@ get_header();
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
             <h1>
-                <?php echo 	'<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>'
+                <?php echo 	'<span class="page-description search-term">搜尋"' . esc_html( get_search_query() ) . '"</span>'
 ?>
             </h1>
         </div>
