@@ -2199,7 +2199,15 @@ span.jp-artist {
 }
 
 .search-results article {
-    margin: 1rem 0 0 0;
+    margin: 3rem 0 0 0;
+}
+
+.search-results .entry-content {
+    text-align: center;
+}
+
+.search-results .entry-footer {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1920px) {}
