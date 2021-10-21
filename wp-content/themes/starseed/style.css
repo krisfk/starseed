@@ -2199,15 +2199,42 @@ span.jp-artist {
 }
 
 .search-results article {
-    margin: 3rem 0 0 0;
+    margin: 3rem auto 0 auto;
+    background: #5d235e;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    position: relative;
+}
+
+.search-results article img {
+    width: 100%;
+    max-width: 700px !important;
 }
 
 .search-results .entry-content {
     text-align: center;
 }
 
+.search-results .pagination {
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+
+.search-results .pagination a {
+    color: #fff;
+}
+
+.search-results .entry-content .more-link {
+    color: #fff;
+}
+
 .search-results .entry-footer {
     text-align: center;
+}
+
+.search-results .entry-footer a {
+    color: #fff;
 }
 
 @media only screen and (max-width: 1920px) {}
