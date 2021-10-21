@@ -34,11 +34,11 @@ get_header(); ?>
 
 
 <?php
-// if( !pms_is_member_of_plan( array( 178 ) ) ) 
-// {
-//     wp_redirect(get_site_url().'/key');
-//     exit;
-// }
+if( pms_is_member_of_plan( array( 178 ) ) ) 
+{
+    wp_redirect(get_site_url().'/interstellar-seed-library');
+    exit;
+}
 ?>
 <?php 
 // echo get_queried_object()->term_id;
