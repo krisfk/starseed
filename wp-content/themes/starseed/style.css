@@ -2163,7 +2163,7 @@ span.jp-artist {
 
 .slick-dots {
     position: relative;
-    bottom: -25px;
+    /* bottom: -25px; */
     display: block;
     width: 100%;
     padding: 0;
