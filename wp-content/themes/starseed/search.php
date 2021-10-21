@@ -80,6 +80,17 @@ if ( have_posts() ) {
 		 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 		 */
 		get_template_part( 'template-parts/content/content-excerpt', get_post_format() );
+		?>
+
+<img class="star7 fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-200,-100); ?>px"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
+<img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
+    style="z-index:-10;position: absolute;bottom: <?php echo rand(20,100); ?>px;left: <?php echo rand(-300,-250); ?>px;width: <?php echo rand(250,300); ?>px !important;opacity: 0;"
+    src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+    alt="">
+<?php
 	} // End the loop.
 
 	// Previous/next page navigation.
