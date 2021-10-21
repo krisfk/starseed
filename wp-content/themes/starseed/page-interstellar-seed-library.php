@@ -204,7 +204,7 @@ $(function() {
         slidesToShow: 3,
         dots: true,
         autoplay: false,
-        appendDots: $(".slide-m-dots"),
+        // appendDots: $(".slide-m-dots"),
         prevArrow: $(".slide-m-prev"),
         nextArrow: $(".slide-m-next"),
         responsive: [{
