@@ -226,7 +226,12 @@ $(function() {
     $('.article-filter-select').change(function() {
 
         var value = $(this).val();
-        alert(value);
+
+        $("html, body").animate({
+            scrollTop: $('#' + value).offset().top - 200;
+        }, 500);
+
+        // alert(value);
     })
 
 
