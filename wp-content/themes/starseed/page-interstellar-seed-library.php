@@ -71,9 +71,19 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
             </div>
             <div class="col-4"><select class="form-select" aria-label="Default select example">
                     <option selected>文章類別</option>
-                    <option value="1">One</option>
+                    <?php
+
+$categories = get_categories();
+foreach($categories as $category) {
+    ?>
+                    <option value="1"><?php echo $category->name?></option>
+                    <?php
+}
+?>
+
+                    <!-- <option value="1">One</option>
                     <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="3">Three</option> -->
                 </select></div>
 
         </div>
