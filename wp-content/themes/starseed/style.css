@@ -2192,7 +2192,7 @@ span.jp-artist {
 #ajaxsearchlite1 .probox,
 div.asl_w .probox {
     margin: 0;
-    height: 37px;
+    height: 37px !important;
     background-color: #fff;
     border: 0 none #fff;
     border-radius: 0 0 0 0;
