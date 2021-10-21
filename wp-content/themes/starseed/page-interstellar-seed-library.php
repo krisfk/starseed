@@ -72,7 +72,28 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
             <div class="carousel">
 
-                <?php echo $category->term_id;?>
+                <?php 
+                //echo $category->term_id;
+                
+                
+                $args = array(
+                    'post_type' => 'post',
+                    'tax_query' => array(
+                        array(
+                        // 'taxonomy' => 'recipe_tx',
+                        'field' => 'term_id',
+                        'terms' => $category->term_id
+                         )
+                      )
+                    );
+                    
+                $query = new WP_Query( $args ); 
+                while ( $query->have_posts() ) {
+                    $query->the_post();
+                    echo 1;
+                }
+                
+                ?>
                 <a href="#" class="post-block">
                     <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
                         alt="">
