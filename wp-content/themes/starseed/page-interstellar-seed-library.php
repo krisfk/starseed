@@ -71,11 +71,23 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
             <h2><?php echo $category->name;?></h2>
 
             <div class="carousel">
-                <div class="">1</div>
-                <div class="">2</div>
-                <div class="">3</div>
-                <div class="">4</div>
-                <div class="">5</div>
+                <div class="">
+                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg" alt="">
+                    <div>fdsfds</div>
+                </div>
+                <div class="">
+                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg" alt="">
+                    <div>fdsfds</div>
+                </div>
+                <div class="">
+                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg" alt="">
+                    <div>fdsfds</div>
+                </div>
+                <div class="">
+                    <img src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg" alt="">
+                    <div>fdsfds</div>
+                </div>
+
             </div>
         </div>
         <?php
