@@ -89,11 +89,10 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
                     $image = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'single-post-thumbnail' );
                     
                     
-                    echo $image[0];
+                    // echo $image[0];
                     ?>
 
-                    <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
-                        alt="">
+                    <img class="w-100" src="<?php echo $image[0];?>" alt="">
                     <div><?php echo get_the_content();?></div>
                 </a>
                 <?php
