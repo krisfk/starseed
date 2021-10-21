@@ -2189,6 +2189,16 @@ span.jp-artist {
     width: fit-content !important;
 }
 
+#ajaxsearchlite1 .probox,
+div.asl_w .probox {
+    margin: 0;
+    height: 37px;
+    background-color: #fff;
+    border: 0 none #fff;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 0 0 #b5b5b5 inset;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
