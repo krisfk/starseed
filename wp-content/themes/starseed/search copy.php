@@ -60,8 +60,8 @@ if ( have_posts() ) {
 			esc_html(
 				/* translators: %d: The number of search results. */
 				_n(
-					'找到 %d 篇內容。',
-					'找到 %d 篇內容。',
+					'We found %d result for your search.',
+					'We found %d results for your search.',
 					(int) $wp_query->found_posts,
 					'twentytwentyone'
 				)
