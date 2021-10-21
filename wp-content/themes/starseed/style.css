@@ -2141,7 +2141,9 @@ span.jp-artist {
     border-radius: 1.5rem;
 }
 
-.article-slick-div {}
+.article-slick-div {
+    position: relative;
+}
 
 .article-slick-div h2 {
     border-bottom: 2px solid;
