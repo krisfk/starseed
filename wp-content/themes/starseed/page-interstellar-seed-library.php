@@ -76,16 +76,8 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
                 //echo $category->term_id;
                 
                 
-                $args = array(
-                    'post_type' => 'post',
-                    'tax_query' => array(
-                        array(
-                        'taxonomy' => 'category',
-                        'field' => 'term_id',
-                        'terms' => $category->term_id
-                         )
-                      )
-                    );
+                $args = array('cat' => $category->term_id, 'orderby' => 'post_date', 'order' => 'DESC', 'post_status' => 'publish');
+
                     
                 $query = new WP_Query( $args ); 
                 while ( $query->have_posts() ) {
