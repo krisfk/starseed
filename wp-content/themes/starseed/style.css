@@ -2151,10 +2151,12 @@ span.jp-artist {
     color: #fff;
     border-radius: 25px;
     text-decoration: none;
+    transform: 0.2s all;
 }
 
 .post-block:hover {
     color: #fff;
+    opacity: 0.85;
 }
 
 .post-block img {
