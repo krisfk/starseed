@@ -2143,7 +2143,11 @@ span.jp-artist {
 
 .article-slick-div {}
 
-.post-block {}
+.post-block {
+    margin: 0 0.5rem;
+    padding: 1rem;
+    background: #fff;
+}
 
 @media only screen and (max-width: 1920px) {}
 
