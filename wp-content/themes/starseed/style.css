@@ -2388,7 +2388,7 @@ span.jp-artist {
 @media only screen and (max-width: 991px) {
     .article-filter-select {
         width: fit-content !important;
-        margin: 1rem auto;
+        margin: 0 auto;
     }
     .search-input {
         max-width: 300px;
