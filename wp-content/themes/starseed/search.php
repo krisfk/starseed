@@ -44,7 +44,7 @@ if ( have_posts() ) {
 	?>
 
 
-<div class="search-result-count default-max-width">
+<div class="search-result-count default-max-width text-center">
     <?php
 		printf(
 			esc_html(
