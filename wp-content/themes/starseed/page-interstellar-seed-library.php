@@ -72,7 +72,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
             <div class="carousel">
 
-                <?php print_r($category->name);?>
+                <?php print_r($category);?>
                 <a href="#" class="post-block">
                     <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-2.jpeg"
                         alt="">
