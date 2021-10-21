@@ -2143,6 +2143,12 @@ span.jp-artist {
 
 .article-slick-div {}
 
+.article-slick-div h2 {
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding: 0 0 1rem 0;
+}
+
 .post-block {
     margin: 0 0.5rem;
     padding: 1.5rem;
