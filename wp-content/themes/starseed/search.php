@@ -90,7 +90,7 @@ if ( have_posts() ) {
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
     <img class="star8 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="position: absolute;top: <?php echo rand(100,200); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
+        style="position: absolute;top: <?php echo rand(200,400); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-200,-100); ?>px"
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
     <?php
