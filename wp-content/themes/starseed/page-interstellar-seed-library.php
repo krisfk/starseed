@@ -76,7 +76,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 $categories = get_categories();
 foreach($categories as $category) {
     ?>
-                    <option value="1"><?php echo $category->name?></option>
+                    <option value="cate_id_<?php echo $category->term_id;?>"><?php echo $category->name?></option>
                     <?php
 }
 ?>
