@@ -2189,19 +2189,6 @@ span.jp-artist {
     width: fit-content !important;
 }
 
-#ajaxsearchlite1 .probox,
-div.asl_w .probox {
-    height: 37px !important;
-}
-
-div.asl_m .probox .proinput input {
-    height: 37px !important;
-}
-
-div.asl_m .probox .proinput input.autocomplete {
-    margin-top: -37px !important;
-}
-
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
