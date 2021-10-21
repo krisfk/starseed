@@ -65,7 +65,10 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
         <div class="row">
 
-            <div class="col-8"></div>
+            <div class="col-8">
+
+                <input type="text" class="form-control">
+            </div>
             <div class="col-4"><select class="form-select" aria-label="Default select example">
                     <option selected>文章類別</option>
                     <option value="1">One</option>
