@@ -225,7 +225,7 @@ $(function() {
 
     $('.article-filter-select').change(function() {
 
-        alert(4);
+        var value = $(this).val();
     })
 
     $('.carousel').slick({
