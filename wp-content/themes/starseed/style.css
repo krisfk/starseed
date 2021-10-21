@@ -2162,12 +2162,12 @@ span.jp-artist {
 }
 
 .slick-dots {
-    position: relative;
+    position: relative !important;
     /* bottom: -25px; */
     display: block;
     width: 100%;
     padding: 0;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0 0 !important;
     list-style: none;
     text-align: center;
     bottom: 0px !important;
