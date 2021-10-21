@@ -2205,6 +2205,7 @@ span.jp-artist {
     padding: 1rem 2rem;
     border-radius: 25px;
     position: relative;
+    z-index: 10;
 }
 
 .search-results article img {
