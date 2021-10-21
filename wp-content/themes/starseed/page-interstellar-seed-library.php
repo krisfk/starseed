@@ -82,7 +82,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
                     $query->the_post();
                 
                 ?>
-                <a href="#" class="post-block">
+                <a href="<?php echo get_permalink();?>" class="post-block">
 
                     <?php
                     // echo get_the_ID(); 
