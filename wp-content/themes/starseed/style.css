@@ -2180,7 +2180,7 @@ span.jp-artist {
 }
 
 .article-filter-select {
-    width: fit-content;
+    width: fit-content !important;
 }
 
 @media only screen and (max-width: 1920px) {}
