@@ -68,7 +68,9 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
     //   echo '<div class="col-md-4"><a href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></div>';
     ?>
         <div class="article-slick-div mt-5">
-            <h2><?php echo $category->name;?></h2>
+            <h2><?php echo $category->name;
+            print_r($category);
+            ?></h2>
 
             <div class="carousel">
 
