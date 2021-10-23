@@ -2165,6 +2165,7 @@ span.jp-artist {
     border-radius: 25px;
     text-decoration: none;
     transform: 0.2s all;
+    outline: none;
 }
 
 .post-block:hover {
