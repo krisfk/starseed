@@ -2160,13 +2160,16 @@ span.jp-artist {
 .post-block {
     margin: 0 0.5rem;
     padding: 1.5rem;
-    background: #5d235e;
+    /* background: #5d235e; */
     text-align: left;
     color: #fff;
     border-radius: 25px;
     text-decoration: none;
     transform: 0.2s all;
     outline: none;
+    outline: none;
+    border-color: #5f0d61;
+    box-shadow: 0 0 10px #5f0d61;
 }
 
 .post-block:hover {
