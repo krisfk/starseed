@@ -65,7 +65,7 @@ $category_img = z_taxonomy_image_url(get_queried_object()->term_id);
 
         <div class="row filter-row mt-4">
 
-            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-12 mb-3 ">
 
                 <!-- <input type="text" class="form-control search-input"> -->
                 <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
