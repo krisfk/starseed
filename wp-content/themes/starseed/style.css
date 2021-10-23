@@ -2076,7 +2076,7 @@ span.jp-artist {
     line-height: 1.6;
     color: #fff;
     border: 1px solid #009be3;
-    background-color: #eee;
+    background-color: transparent;
 }
 
 .apwp-jplayer-design-overide .controller-common:before {
