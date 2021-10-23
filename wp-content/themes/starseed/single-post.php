@@ -178,11 +178,11 @@ if( have_rows('content_sections') )
 // echo do_shortcode('[apwp_player playlist_id="21"]'); 
 ?>
 
-<div class="search-track-div">
+<!-- <div class="search-track-div">
     <input class="search-track form-control" type="text" placeholder="Search sound track ...">
 
 
-</div>
+</div> -->
 <?php
 if(get_field('have_playlist'))
 {
@@ -254,6 +254,7 @@ if(get_field('have_playlist'))
 
 <script type="text/javascript">
 $(function() {
+
 
 
 
