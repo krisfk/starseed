@@ -2708,6 +2708,9 @@ span.jp-artist {
     .course-thumbnail {
         height: 300px;
     }
+    .post-block {
+        margin: 0 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -2718,8 +2721,4 @@ span.jp-artist {
 
 @media only screen and (max-width: 575px) {}
 
-@media only screen and (max-width: 480px) {
-    .post-block {
-        margin: 0 1.5rem;
-    }
-}
+@media only screen and (max-width: 480px) {}
