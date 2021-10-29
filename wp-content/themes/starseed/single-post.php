@@ -49,7 +49,7 @@ $category_img = z_taxonomy_image_url($term_id);
 
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
             <h1 class="mt-4"><?php echo get_the_title();?>
 
             </h1>
