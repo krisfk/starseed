@@ -46,7 +46,7 @@ $category_img = z_taxonomy_image_url($term_id);
 
 ?>
 <div class="inner-container pb-6 mt-5">
-    test
+
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
@@ -78,13 +78,12 @@ $category_img = z_taxonomy_image_url($term_id);
 
         </div>
     </div>
-</div>
 
 
-</div>
 
 
-<?php
+
+    <?php
 $idx=0;
 if( have_rows('content_sections') )
 {
@@ -97,75 +96,75 @@ if( have_rows('content_sections') )
         if($idx %2 ==1)
         {
                 ?>
-<div class="container inner-container mt-4 text-center mb-5">
+    <div class="container inner-container mt-4 text-center mb-5">
 
 
-    <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
+        <img class="left-star star7 fadein-ele animate__animated animate__fadeIn delay-2"
+            style="z-index:-10;position: absolute;top: <?php echo rand(30,100); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;left: <?php echo rand(-300,-200); ?>px"
+            src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+            alt="">
 
-    <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
-        style="z-index:-10;position: absolute;top: <?php echo rand(100,200); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
-        src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
-        alt="">
-    <?php if($subtitle)
+        <img class="right-star fadein-ele animate__animated animate__fadeIn delay-2"
+            style="z-index:-10;position: absolute;top: <?php echo rand(100,200); ?>px;width: <?php echo rand(150,200); ?>px !important;opacity: 0;right: <?php echo rand(-300,-200); ?>px"
+            src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
+            alt="">
+        <?php if($subtitle)
 {
     ?>
 
-    <h2 class=" text-center"><?php echo $subtitle;?></h2>
+        <h2 class=" text-center"><?php echo $subtitle;?></h2>
 
-    <?php
+        <?php
 }
 ?>
 
-    <div class="mt-3 text-start mobile-align content-txt-div">
+        <div class="mt-3 text-start mobile-align content-txt-div">
 
-        <?php echo $content;?>
+            <?php echo $content;?>
+        </div>
+
     </div>
 
-</div>
-
-<?php
+    <?php
         }
         else
         {
 ?>
-<div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
+    <div class="row g-0  <?php echo $idx ==0 ? 'mt-5' : 'mt-6' ; ?> ">
 
-    <div class="col-12 position-relative">
+        <div class="col-12 position-relative">
 
-        <div class="about-div-wrapper  pt-5 pb-5">
-            <div class="about-div">
-                <div class="container inner-container">
+            <div class="about-div-wrapper  pt-5 pb-5">
+                <div class="about-div">
+                    <div class="container inner-container">
 
-                    <div class="row align-items-center g-0">
-                        <div class="col-12 text-left">
+                        <div class="row align-items-center g-0">
+                            <div class="col-12 text-left">
 
-                            <?php if($subtitle)
+                                <?php if($subtitle)
 {
     ?>
 
-                            <h2 class=" text-center"><?php echo $subtitle;?></h2>
-                            <?php
+                                <h2 class=" text-center"><?php echo $subtitle;?></h2>
+                                <?php
 }
 ?>
-                            <div class="mt-4 text-start mobile-align content-txt-div">
-                                <?php echo $content;?>
+                                <div class="mt-4 text-start mobile-align content-txt-div">
+                                    <?php echo $content;?>
+                                </div>
+
                             </div>
 
+
                         </div>
-
-
                     </div>
                 </div>
             </div>
+
+
         </div>
-
-
     </div>
-</div>
-<?php
+    <?php
         }
 
         $idx++;
@@ -175,80 +174,20 @@ if( have_rows('content_sections') )
 
 
 
-<?php
-// echo do_shortcode('[apwp_player playlist_id="21"]'); 
-?>
-
-<!-- <div class="search-track-div">
-    <input class="search-track form-control" type="text" placeholder="Search sound track ...">
-
-
-</div> -->
-<?php
-if(get_field('have_playlist'))
-{
-    ?>
-<div class="playlist-div container mt-5 text-center pb-5 inner-container pe-3 ps-3 d-none">
-    <h2 class="mt-4">播放列</h2>
-    <div class="mt-4">
-
-        <ul id="playlist">
-
-            <?php
-            $idx=1;
-        if( have_rows('playlist') )
-        {
-            while(have_rows('playlist') )
-            {
-                the_row(); 
-
-                ?>
-
-            <?php 
-                if($idx===1)
-               {
-                   ?>
-            <li>
-                <audio id="audio" preload="auto" tabindex="0" controls="" controlsList="nodownload" type="audio/mpeg">
-                    <source type="audio/mp3" src="<?php echo get_sub_field('audio_file');?>">
-                    Sorry, your browser does not support HTML5 audio.
-                </audio>
-            </li>
-            <?php
-               }
-               ?>
 
 
 
-            <li><a
-                    href="<?php echo get_sub_field('audio_file');?>"><?php echo $idx.'. '. get_sub_field('sound_track_name');?></a>
-            </li>
 
 
-            <?php
-            $idx++;
-            }
-        }
-        
-        // echo  get_field('notice_content');
-        
-        ?>
-        </ul>
 
-    </div>
+
 </div>
 
 
-<?php
-}
-?>
-
-
-
-
-<div class="container mt-5 text-center pb-5 inner-container">
-
 </div>
+
+
+
 
 
 
