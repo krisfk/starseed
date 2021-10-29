@@ -133,7 +133,7 @@ foreach($categories as $category) {
                     ?>
 
                     <img class="w-100" src="<?php echo $image[0];?>" alt="">
-                    <div><?php echo get_the_content();?></div>
+                    <div class="post-list-txt-div"><?php echo get_the_content();?></div>
                 </a>
                 <?php
                 
