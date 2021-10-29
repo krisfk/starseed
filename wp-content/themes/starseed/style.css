@@ -2268,6 +2268,7 @@ span.jp-artist {
     -webkit-backdrop-filter: blur(5px);
     max-width: 1100px;
     margin: 0 auto;
+    padding-top: 1.2rem;
 }
 
 @media only screen and (max-width: 1920px) {}
