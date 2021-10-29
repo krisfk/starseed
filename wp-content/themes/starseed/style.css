@@ -2149,6 +2149,8 @@ span.jp-artist {
 
 .article-slick-div {
     position: relative;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .article-slick-div h2 {
@@ -2716,4 +2718,8 @@ span.jp-artist {
 
 @media only screen and (max-width: 575px) {}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .post-block {
+        margin: 0 1.5rem;
+    }
+}
