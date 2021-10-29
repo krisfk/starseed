@@ -45,7 +45,7 @@ foreach($terms as $term) {
 $category_img = z_taxonomy_image_url($term_id);
 
 ?>
-<div class="inner-container pb-6 mt-5">
+<div class="inner-container pb-6 mt-5 single-post-purple-bg">
 
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
