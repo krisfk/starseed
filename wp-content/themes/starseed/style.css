@@ -588,7 +588,7 @@ a.add-to-cart-btn:hover {
     padding: 0;
     margin: 0;
     width: max-content;
-    background: rgb(121 62 82 / 80%);
+    background: rgb(121 62 82 / 40%);
     padding: 10px 0 10px 0;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
