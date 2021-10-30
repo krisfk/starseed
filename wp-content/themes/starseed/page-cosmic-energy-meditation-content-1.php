@@ -53,7 +53,7 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 // get_queried_object()->term_id
 ?>
 
-<div class="inner-container  mt-0 text-center">
+<div class="inner-container  mt-lg-5 mt-md-0 mt-sm-0 mt-0 text-center">
     <div class="row align-items-center justify-content-center gx-5">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top  ">
