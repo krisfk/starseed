@@ -49,7 +49,7 @@ $category_img = z_taxonomy_image_url($term_id);
 
     <div class="row align-items-center justify-content-center gx-5 mobile-column-reverse">
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  txt-top  fadeleft-ele">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  txt-top  ">
             <h1 class="mt-4"><?php echo get_the_title();?>
 
             </h1>
@@ -71,7 +71,7 @@ $category_img = z_taxonomy_image_url($term_id);
 
 
         </div>
-        <div class="col-lg-3 col-md-12 col-sm-12 col-12  position-relative  faderight-ele">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-12  position-relative ">
             <img class="post-img w-100"
                 src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : $category_img;?>" alt="">
 
