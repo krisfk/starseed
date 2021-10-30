@@ -1918,6 +1918,7 @@ footer {
 .contact-table-div a {
     text-decoration: underline;
     color: #fff !important;
+    font-size: 14px;
 }
 
 .contact-table td {
