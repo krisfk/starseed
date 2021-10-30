@@ -2173,6 +2173,9 @@ span.jp-artist {
     border-color: #5f0d61;
     box-shadow: 0 0 10px #5f0d61;
     overflow: hidden;
+    background: rgb(93 35 94 / 45%);
+    backdrop-filter: blur(5 px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .post-block:hover {
