@@ -80,7 +80,11 @@ get_header(); ?>
             <h1>揚升之鑰
             </h1>
             <?php
-            echo get_field('content_1');
+                        if( !pms_is_member_of_plan( array( 178 ) ) ) 
+{
+    echo get_field('content_1');
+
+}
             ?>
             <!-- 揚升之鑰是一個為靈修人士提供資源以學習成長和提升能量的平台。這個平台是一個讓靈修人士可以接觸一些平時不會接觸到的知識和宇宙頻率的媒介。
 
