@@ -2678,7 +2678,7 @@ span.jp-artist {
         text-align: justify;
     }
     .pb-6 {
-        padding: 0 !important;
+        padding: 1rem 0.5rem !important;
     }
     .about-div .content-txt-div {
         text-align: center !important;
