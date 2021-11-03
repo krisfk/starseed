@@ -2280,6 +2280,10 @@ span.jp-artist {
     padding-top: 1.2rem;
 }
 
+.contact-icon-div {
+    margin: 1rem 0 1rem 0;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {

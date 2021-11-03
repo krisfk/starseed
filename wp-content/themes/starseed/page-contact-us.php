@@ -44,27 +44,27 @@ get_header(); ?>
             </div>
 
             <div class="contact-table-div mt-5 row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 contact-icon-div">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-1.png" alt=""></div>
                     <div class="mt-2">5340 8275</div>
                 </div>
 
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 contact-icon-div">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-2.png" alt=""></div>
                     <div class="mt-2"> <a href="https://galacticstarseedacademy.com/"
                             target="_blank">https://galacticstarseedacademy.com/</a></div>
                 </div>
 
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 contact-icon-div">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-3.png" alt=""></div>
                     <div class="mt-2"><a href="https://www.instagram.com/g.s.a.official/"
                             target="_blank">https://www.instagram.com/g.s.a.official/</a></div>
                 </div>
 
 
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 contact-icon-div">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-4.png" alt=""></div>
                     <div class="mt-2"> <a href="mailto:boscofth0506@gmail.com"
                             target="_blank">boscofth0506@gmail.com</a></div>
