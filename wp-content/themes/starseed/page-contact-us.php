@@ -30,7 +30,7 @@ get_header(); ?>
     src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt=""> -->
 
 <div class="inner-container  mt-5 text-center">
-    <div class="row align-items-center justify-content-center gx-5 fadein-ele">
+    <div class="row align-items-center justify-content-center gx-5 ">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
             <h1>聯絡我們
