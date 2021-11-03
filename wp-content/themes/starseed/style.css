@@ -2741,6 +2741,10 @@ span.jp-artist {
     }
 }
 
-@media only screen and (max-width: 575px) {}
+@media only screen and (max-width: 575px) {
+    .contact-icon-div-2 {
+        margin: 0rem 0 1.5rem 0;
+    }
+}
 
 @media only screen and (max-width: 480px) {}
