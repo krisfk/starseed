@@ -2504,6 +2504,7 @@ span.jp-artist {
     .entry-row-bg {
         /* background-repeat: no-repeat !important; */
         background-size: cover !important;
+        border-right: 1px solid #fff;
         background-position: center center !important;
     }
     .soul-healing-icon-a {
