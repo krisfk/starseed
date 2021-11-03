@@ -43,7 +43,7 @@ get_header(); ?>
                 我們樂意為您提供任何協助
             </div>
 
-            <div class="contact-table-div mt-5">
+            <div class="contact-table-div mt-5 row">
                 <div class="col-3">
                     <div><img src="<?php echo get_template_directory_uri();?>/assets/images/icon-1.png" alt=""></div>
                     <div class="mt-2">5340 8275</div>
