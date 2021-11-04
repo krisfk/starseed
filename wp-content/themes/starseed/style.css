@@ -2287,6 +2287,12 @@ span.jp-artist {
     border-right: 1px solid #fff;
 }
 
+.bosco-foto {
+    max-width: 360px;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
