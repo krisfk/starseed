@@ -29,7 +29,7 @@ get_header(); ?>
 <img class="star10 fadein-ele" style="  width: 370px !important;position: absolute;bottom: 0;right: -165px;z-index: 0;"
     src="<?php echo get_template_directory_uri();?>/assets/images/star9.png" alt="">
 
-<div class="inner-container  mt-5 text-center">
+<div class="inner-container  mt-lg-5 mt-md-5 mt-sm-5 mt-0 text-center">
     <div class="row align-items-center justify-content-center gx-5 fadein-ele">
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12  txt-top ">
@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 
-<div class="container mt-5  text-center inner-container pb-5">
+<div class="container mt-lg-5 mt-md-5 mt-sm-5 mt-0   text-center inner-container pb-5">
 
 
     <?php
