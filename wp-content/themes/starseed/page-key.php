@@ -330,6 +330,20 @@ wp_login_form();
 
 </div>
 
+
+
+<?php if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                ?>
+<style type="text/css">
+.login-hide {
+    display: none;
+}
+</style>
+<?php
+            }
+                ?>
+
 <script type="text/javascript">
 $(function() {
 
