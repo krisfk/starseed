@@ -2289,6 +2289,14 @@ span.jp-artist {
 
 @media only screen and (max-width: 1920px) {}
 
+@media only screen and (max-width: 1200px) and (max-width: 1400px) {
+    .top-menu-ul li a {
+        padding: 0 7px !important;
+    }
+    /* padding: 23px; */
+    /* padding: 0 7px !important; */
+}
+
 @media only screen and (max-width: 1200px) {
     .mobile-column-reverse {
         flex-direction: column-reverse;
