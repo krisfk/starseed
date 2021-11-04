@@ -2294,6 +2294,11 @@ span.jp-artist {
     margin: 0 auto 2rem auto;
 }
 
+.h2,
+h2 {
+    line-height: 2.7rem;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (min-width: 1400px) {
