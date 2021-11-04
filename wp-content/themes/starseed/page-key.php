@@ -239,7 +239,7 @@ wp_login_form();
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-    <div class="row align-items-center  position-relative mobile-column-reverse line-height">
+    <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
@@ -269,7 +269,7 @@ wp_login_form();
     </div>
 
 
-    <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5">
+    <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
 
 
         <!-- <img class="star11" style=" width: 400px !important;position: absolute;bottom: 330px;left: -170px;"
