@@ -2307,7 +2307,7 @@ span.jp-artist {
         text-align: left;
     }
     .top-menu-ul li a {
-        padding: 0 7px !important;
+        /* padding: 0 7px !important; */
     }
     .mobile-form-div-login {
         display: block;
