@@ -635,7 +635,7 @@ a.add-to-cart-btn:hover {
 } */
 
 .course-entry-rect {
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
