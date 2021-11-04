@@ -2418,6 +2418,7 @@ h2 {
     .mobile-logo-word img {
         /* position: absolute; */
         height: 36px !important;
+        width: auto;
         display: inline !important;
         /* top: 0; */
     }
