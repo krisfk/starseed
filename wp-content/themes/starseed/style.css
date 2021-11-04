@@ -2304,6 +2304,16 @@ span.jp-artist {
 }
 
 @media only screen and (max-width: 1200px) {
+    .main-entrance {
+        margin: 0 0 3rem 0;
+    }
+    .main-entrance div {
+        width: 100%;
+    }
+    .main-entrance .text-end,
+    .main-entrance .text-start {
+        text-align: center !important;
+    }
     .mobile-column-reverse {
         flex-direction: column-reverse;
         position: relative;
