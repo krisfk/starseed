@@ -2283,6 +2283,10 @@ span.jp-artist {
     padding-top: 1.2rem;
 }
 
+.entry-row-bg {
+    border-right: 1px solid #fff;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {
@@ -2727,6 +2731,9 @@ span.jp-artist {
 }
 
 @media only screen and (max-width: 768px) {
+    .entry-row-bg {
+        border-bottom: 1px solid #fff;
+    }
     .course-entry-rect {
         display: none;
     }
