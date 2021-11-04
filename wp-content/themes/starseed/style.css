@@ -2300,11 +2300,11 @@ h2 {
 }
 
 .woocommerce-billing-fields__field-wrapper .form-row-first {
-    float: right;
+    float: right !important;
 }
 
 .woocommerce-billing-fields__field-wrapper .form-row-last {
-    float: left;
+    float: left !important;
 }
 
 @media only screen and (max-width: 1920px) {}
