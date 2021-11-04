@@ -2639,6 +2639,7 @@ span.jp-artist {
         text-align: center;
     }
     .single-product img {
+        max-width: 360px;
         /* width: 100%;
         max-width: 360px;
         height: auto;
