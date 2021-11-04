@@ -2299,6 +2299,14 @@ h2 {
     line-height: 2.7rem;
 }
 
+.woocommerce-billing-fields__field-wrapper .form-row-first {
+    float: right;
+}
+
+.woocommerce-billing-fields__field-wrapper .form-row-last {
+    float: left;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (min-width: 1400px) {
