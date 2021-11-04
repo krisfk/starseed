@@ -51,7 +51,7 @@ get_header(); ?>
 
 
 
-<div class="container mt-lg-5 mt-md-5 mt-sm-5 mt-0   text-center inner-container pb-5">
+<div class="container mt-lg-5 mt-md-5 mt-sm-5 mt-5   text-center inner-container pb-5">
 
 
     <?php
