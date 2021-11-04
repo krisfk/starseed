@@ -188,7 +188,7 @@ wp_login_form();
 
 </div>
 
-<div class="row g-0">
+<div class="row g-0 login-hide">
 
     <div class="col-12 position-relative">
 
