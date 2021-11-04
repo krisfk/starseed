@@ -2296,6 +2296,15 @@ span.jp-artist {
         z-index: 1000;
         padding: 0 12px;
     }
+    .mobile-column-reverse div {
+        width: 100%;
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+    .mobile-column-reverse div .form-div {
+        margin: 0 auto 5rem auto;
+        text-align: center;
+    }
     .top-menu-ul li a {
         padding: 0 7px !important;
     }
