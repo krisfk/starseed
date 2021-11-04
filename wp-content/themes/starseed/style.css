@@ -2304,6 +2304,7 @@ span.jp-artist {
     .mobile-column-reverse div .form-div {
         margin: 0 auto 5rem auto;
         text-align: center;
+        text-align: left;
     }
     .top-menu-ul li a {
         padding: 0 7px !important;
