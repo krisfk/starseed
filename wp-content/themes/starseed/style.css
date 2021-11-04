@@ -2379,6 +2379,7 @@ span.jp-artist {
     .mobile-logo-word img {
         /* position: absolute; */
         height: 36px !important;
+        display: inline !important;
         /* top: 0; */
     }
     .mobile-logo-a img {
