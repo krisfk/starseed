@@ -1926,6 +1926,8 @@ footer {
     padding: 2rem;
     display: inline-block;
     font-size: 0.8rem;
+    line-break: anywhere;
+    overflow-wrap: anywhere;
 }
 
 .contact-table-div img {
