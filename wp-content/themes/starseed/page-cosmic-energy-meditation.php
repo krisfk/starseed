@@ -79,12 +79,16 @@ if( pms_is_member_of_plan( array( 178 ) ) )
         <div class="row mt-3">
 
             <div class="col-6">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
-                    alt="">
+
+                <?php
+            echo wp_get_attachment_image_src(get_field('image_1'));
+            ?>
+                <!-- <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
+                    alt=""> -->
             </div>
             <div class="col-6">
-                <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
-                    alt="">
+                <!-- <img class="w-100" src="http://64.227.13.14/starseed/wp-content/uploads/2021/08/key-topic-1.jpeg"
+                    alt=""> -->
             </div>
         </div>
 
