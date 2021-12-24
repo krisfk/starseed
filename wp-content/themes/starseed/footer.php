@@ -22,7 +22,7 @@
 
 
     <div class="copyright-txt">
-        Copyright © <?php echo date('Y');?> Galactic Starseed Academy . All rights reserved.
+        Copyright © <?php echo date('Y');?> Galactic Starseed Academy. All rights reserved.
     </div>
 
 </footer><!-- #colophon -->
