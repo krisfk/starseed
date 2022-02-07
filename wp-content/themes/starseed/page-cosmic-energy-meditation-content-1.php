@@ -74,7 +74,7 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
 
 
         <?php
-echo do_shortcode('[apwp_player playlist_id="21"]'); 
+echo do_shortcode('[apwp_player playlist_id="40"]'); 
 ?>
 
         <div class="search-track-div">
