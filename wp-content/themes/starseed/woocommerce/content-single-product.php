@@ -411,7 +411,7 @@ if(get_field('show_client_case_share'))
             <div class="slide">
 
                 <h2>客戶評語及個案分享</h2>
-                <div class="mt-4 ps-3 pe-3 ">
+                <div class="mt-4 ps-3 pe-3 text-center">
                     <?php echo get_sub_field('sharing_text');?>
                 </div>
 
