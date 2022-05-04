@@ -620,7 +620,8 @@ a.add-to-cart-btn:hover {
     color: #fff;
     text-decoration: none;
     /* background: #5d235e; */
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    border-radius: 0px;
     overflow: hidden;
     position: relative;
     line-height: 2.5;
