@@ -2844,6 +2844,10 @@ h2 {
         line-break: anywhere;
         overflow-wrap: anywhere;
     }
+    .content-txt-div img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 480px) {}
