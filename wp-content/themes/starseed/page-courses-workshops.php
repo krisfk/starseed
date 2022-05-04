@@ -64,8 +64,10 @@ get_header(); ?>
 ?>
     <div class="course-entry-div mb-5">
         <div class="row">
+
+
             <div class="entry-row-bg col-lg-5 col-md-5 col-sm-12 col-12  position-relative overflow-hidden"
-                style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size:auto 100%;">
+                style="background: url(<?php echo get_the_post_thumbnail_url();?>); background-size: cover;background-repeat: no-repeat;background-position: center;">
                 <div class="course-entry-rect"></div>
 
                 <img class="course-thumbnail" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
