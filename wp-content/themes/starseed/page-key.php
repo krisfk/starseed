@@ -243,11 +243,11 @@ wp_login_form();
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-            <div class="login-hide">
-                <?php
+            <!-- <div class="login-hide"> -->
+            <?php
             echo get_field('content_3');
             ?>
-            </div>
+            <!-- </div> -->
             <!-- 99 -->
 
             <div class="text-center mb-5">
