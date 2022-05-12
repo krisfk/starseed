@@ -239,29 +239,31 @@ wp_login_form();
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-
-    <div class="row gx-0">
+    <?php
+if( pms_is_member_of_plan( array( 178 ) ) ) 
+{
+    ?> <div class="row gx-0">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
             <img class="w-100"
                 style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
                 src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
             <?php
-            echo get_field('content_3');
-            ?>
+        echo get_field('content_3');
+        ?>
 
 
             <div class="text-center mb-5">
                 <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
                     <?php 
-            if( pms_is_member_of_plan( array( 178 ) ) ) 
-            {
-                echo '進入';
-            }
-            else
-            {
-                 echo '了解更多';
-            }
-                ?>
+        if( pms_is_member_of_plan( array( 178 ) ) ) 
+        {
+            echo '進入';
+        }
+        else
+        {
+             echo '了解更多';
+        }
+            ?>
                 </a>
 
             </div>
@@ -272,27 +274,31 @@ wp_login_form();
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
                 alt="">
             <?php
-            echo get_field('content_4');
-            ?>
+        echo get_field('content_4');
+        ?>
 
 
             <div class="text-center mb-5">
                 <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library">
                     <?php 
-            if( pms_is_member_of_plan( array( 178 ) ) ) 
-            {
-                echo '進入';
-            }
-            else
-            {
-                 echo '了解更多';
-            }
-                ?>
+        if( pms_is_member_of_plan( array( 178 ) ) ) 
+        {
+            echo '進入';
+        }
+        else
+        {
+             echo '了解更多';
+        }
+            ?>
                 </a>
 
             </div>
         </div>
     </div>
+    <?php
+}
+?>
+
 
     <div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
