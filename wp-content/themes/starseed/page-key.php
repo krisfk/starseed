@@ -341,7 +341,7 @@ wp_login_form();
                 ?>
 <style type="text/css">
 .login-hide {
-    /* display: none; */
+    display: none;
 }
 </style>
 <?php
