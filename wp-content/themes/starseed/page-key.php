@@ -240,7 +240,7 @@ wp_login_form();
         alt="">
 
 
-    <div class="row">
+    <div class="row gx-0">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
             <img class="w-100"
                 style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
