@@ -241,7 +241,7 @@ wp_login_form();
 
 
     <div class="row">
-        <div class="col-6 text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
             <img class="w-100"
                 style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
                 src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
@@ -267,7 +267,7 @@ wp_login_form();
             </div>
 
         </div>
-        <div class="col-6 text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12  text-center">
 
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
                 alt="">
