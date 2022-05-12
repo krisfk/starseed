@@ -268,7 +268,7 @@ wp_login_form();
         </div>
         <div class="col-6">
 
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
+            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
                 alt="">
             <?php
             echo get_field('content_4');
