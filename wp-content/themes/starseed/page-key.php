@@ -271,12 +271,12 @@ wp_login_form();
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
                 alt="">
             <?php
-            echo get_field('content_3');
+            echo get_field('content_4');
             ?>
 
 
             <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library">
                     <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
