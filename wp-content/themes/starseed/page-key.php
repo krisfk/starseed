@@ -242,7 +242,8 @@ wp_login_form();
 
     <div class="row">
         <div class="col-6 text-center">
-            <img class="w-100" style="max-height:360px; width:auto !important;margin:0 auto;display:inline-block;"
+            <img class="w-100"
+                style="max-height:360px; width:auto !important;margin:0 auto 2rem auto;display:inline-block;"
                 src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
             <?php
             echo get_field('content_3');
