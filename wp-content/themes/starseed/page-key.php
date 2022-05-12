@@ -247,8 +247,9 @@ wp_login_form();
             echo get_field('content_3');
             ?>
 
-            <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
-                <?php 
+            <div class="text-center">
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
+                    <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -258,7 +259,10 @@ wp_login_form();
                  echo '了解更多';
             }
                 ?>
-            </a>
+                </a>
+
+            </div>
+
         </div>
         <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
