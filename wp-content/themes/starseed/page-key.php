@@ -239,90 +239,80 @@ wp_login_form();
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-    <div class="row">
 
-        <div class="col-6">
-
-            <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+    <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
-                <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-                    <?php
-    echo get_field('content_3');
-    ?>
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
+            <!-- <div class="login-hide"> -->
+            <?php
+            echo get_field('content_3');
+            ?>
+            <!-- </div> -->
+            <!-- 99 -->
 
-
-
-                    <div class="text-center mb-5">
-                        <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
-                            <?php 
-    if( pms_is_member_of_plan( array( 178 ) ) ) 
-    {
-        echo '進入';
-    }
-    else
-    {
-         echo '了解更多';
-    }
-        ?>
-                        </a>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
-                    <img class="w-100 bosco-foto"
-                        src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
-
-                </div>
+            <div class="text-center mb-5">
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
+                    <?php 
+            if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                echo '進入';
+            }
+            else
+            {
+                 echo '了解更多';
+            }
+                ?>
+                </a>
 
             </div>
 
         </div>
-        <div class="col-6">
-            <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
-
-                <div class="col-lg-4 col-md-12 col-md-12 col-12">
-                    <img class="w-100 bosco-foto"
-                        src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
-
-                </div>
-
-
-
-                <div
-                    class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
-
-                    <?php
-    echo get_field('content_4');
-    ?>
-
-
-
-                    <div class="text-center">
-
-                        <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
-    if( pms_is_member_of_plan( array( 178 ) ) ) 
-    {
-        echo '進入';
-    }
-    else
-    {
-         echo '了解更多';
-    }
-        ?></a>
-                    </div>
-
-
-                </div>
-
-            </div>
-
+        <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
+            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
+                alt="">
 
         </div>
+
     </div>
 
 
+    <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
+
+        <div class="col-lg-4 col-md-12 col-md-12 col-12">
+            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
+                alt="">
+
+        </div>
+
+
+
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
+
+            <?php
+            echo get_field('content_4');
+            ?>
+
+
+
+            <div class="text-center">
+
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
+            if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                echo '進入';
+            }
+            else
+            {
+                 echo '了解更多';
+            }
+                ?></a>
+            </div>
+
+
+        </div>
+
+    </div>
 
 
 
