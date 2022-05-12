@@ -308,7 +308,10 @@ wp_login_form();
 
             </div>
             <a href="#" class="know-more-btn">了解更多</a> -->
-            <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
+
+            <div class="text-center">
+
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
             if( pms_is_member_of_plan( array( 178 ) ) ) 
             {
                 echo '進入';
@@ -318,6 +321,8 @@ wp_login_form();
                  echo '了解更多';
             }
                 ?></a>
+            </div>
+
 
         </div>
 
