@@ -240,16 +240,39 @@ wp_login_form();
         alt="">
 
 
+    <div class="row">
+        <div class="col-6">
+            <?php
+            echo get_field('content_3');
+            ?>
+
+            <div class="text-center mb-5">
+                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
+                    <?php 
+            if( pms_is_member_of_plan( array( 178 ) ) ) 
+            {
+                echo '進入';
+            }
+            else
+            {
+                 echo '了解更多';
+            }
+                ?>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="col-6"></div>
+    </div>
+
     <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-            <!-- <div class="login-hide"> -->
             <?php
             echo get_field('content_3');
             ?>
-            <!-- </div> -->
-            <!-- 99 -->
 
             <div class="text-center mb-5">
                 <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
