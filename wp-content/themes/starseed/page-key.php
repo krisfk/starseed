@@ -239,98 +239,90 @@ wp_login_form();
         src="http://64.227.13.14/starseed/wp-content/themes/starseed/assets/images/star<?php echo rand(0,10); ?>.png"
         alt="">
 
-    <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+    <div class="row">
+
+        <div class="col-6">
+
+            <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
-            <!-- <div class="login-hide"> -->
-            <?php
-            echo get_field('content_3');
-            ?>
-            <!-- </div> -->
-            <!-- 99 -->
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
+                    <?php
+    echo get_field('content_3');
+    ?>
 
-            <div class="text-center mb-5">
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
-                    <?php 
-            if( pms_is_member_of_plan( array( 178 ) ) ) 
-            {
-                echo '進入';
-            }
-            else
-            {
-                 echo '了解更多';
-            }
-                ?>
-                </a>
+
+
+                    <div class="text-center mb-5">
+                        <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
+                            <?php 
+    if( pms_is_member_of_plan( array( 178 ) ) ) 
+    {
+        echo '進入';
+    }
+    else
+    {
+         echo '了解更多';
+    }
+        ?>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
+                    <img class="w-100 bosco-foto"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png" alt="">
+
+                </div>
 
             </div>
 
         </div>
-        <div class="col-lg-4 col-md-12 col-md-12 col-12 ">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/sit-2.png"
-                alt="">
+        <div class="col-6">
+            <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
+
+                <div class="col-lg-4 col-md-12 col-md-12 col-12">
+                    <img class="w-100 bosco-foto"
+                        src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png" alt="">
+
+                </div>
+
+
+
+                <div
+                    class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
+
+                    <?php
+    echo get_field('content_4');
+    ?>
+
+
+
+                    <div class="text-center">
+
+                        <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
+    if( pms_is_member_of_plan( array( 178 ) ) ) 
+    {
+        echo '進入';
+    }
+    else
+    {
+         echo '了解更多';
+    }
+        ?></a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
 
         </div>
-
     </div>
 
 
-    <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
-
-
-        <!-- <img class="star11" style=" width: 400px !important;position: absolute;bottom: 330px;left: -170px;"
-            src="<?php echo get_template_directory_uri();?>/assets/images/star5.png" alt=""> -->
-
-
-
-        <div class="col-lg-4 col-md-12 col-md-12 col-12">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
-                alt="">
-
-        </div>
-
-
-
-        <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-start line-height mobile-align content-txt-div pe-4 ps-4">
-
-            <!-- <div class="container ps-e pe"> -->
-            <?php
-            echo get_field('content_4');
-            ?>
-
-            <!-- </div> -->
-            <!-- <h1>星際種子圖書館</h1>
-            <div>
-
-
-
-                身心靈修行是一門非常博大精深的學問。在靈性修行的不同階段，我們都需要不同程度的知識來幫助我們更深入認識生命乃至整個宇宙。可是，現在坊間的身心靈知識都非常散亂，而且大部分宇宙知識都因為被網絡上泛濫的片面資訊洗版而沈底，這導致很多非常有價值的知識變得難以觸及。而星際種子圖書館的我出現，其實就是將難以觸及的智慧變成可以垂手可得的知識，讓你可以真正深入了解身心靈的世界，從此結束一知半解的修行方式。
-                <br>
-                Bosco自從踏上靈修旅程之後，一直積極研讀各種身心靈書籍。在尋找知識的過程中，他非常強調尋根究底的精神。這是由於現代的身心靈資訊比較零碎，感覺傳遞知識者並未能把身心靈的概念和詞彙作出全面解釋，甚至有時候還會發現不同的老師對某個概念所作出的解釋不一致的情況。因此，Bosco在探索的過程中很喜歡找出某個特定概念的根源，全面理解某個詞語所隱含的概念。
-
-
-            </div>
-            <a href="#" class="know-more-btn">了解更多</a> -->
-
-            <div class="text-center">
-
-                <a class="know-more-btn" href="<?php echo get_site_url();?>/interstellar-seed-library/"> <?php 
-            if( pms_is_member_of_plan( array( 178 ) ) ) 
-            {
-                echo '進入';
-            }
-            else
-            {
-                 echo '了解更多';
-            }
-                ?></a>
-            </div>
-
-
-        </div>
-
-    </div>
 
 
 
