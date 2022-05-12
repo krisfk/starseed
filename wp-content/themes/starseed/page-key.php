@@ -294,7 +294,7 @@ wp_login_form();
         </div>
     </div>
 
-    <div class="row align-items-center  position-relative mobile-column-reverse line-height main-entrance">
+    <div class="row login-hide align-items-center  position-relative mobile-column-reverse line-height main-entrance">
 
 
         <div class="col-lg-8 col-md-12 col-sm-12 col-12  text-end mobile-align">
