@@ -69,6 +69,11 @@ if( !pms_is_member_of_plan( array( 178 ) ) )
             //echo get_the_content();?>
         </div>
 
+        <!-- <script type="text/javascript"> -->
+        <?php
+       wp_redirect(get_site_url().'/cosmic-energy-meditation-content-1');
+
+?>
 
         <div class="text-center">
             <a href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1" class="lang-track-a"> <img
