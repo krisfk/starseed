@@ -200,6 +200,16 @@ $(function() {
 .apwp-audio-player-wrp .album-art-block .jp-title {
     display: none;
 }
+
+.apwp-jplayer-design-overide .overlay-one {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    /* background: rgba(0, 0, 0, 0.3); */
+}
 </style>
 
 <?php
