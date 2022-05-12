@@ -196,7 +196,11 @@ $(function() {
 
 })
 </script>
-
+<style type="text/css">
+.apwp-audio-player-wrp .album-art-block .jp-title {
+    display: none;
+}
+</style>
 
 <?php
 
