@@ -246,6 +246,7 @@ wp_login_form();
             <?php
             echo get_field('content_3');
             ?>
+            99
 
             <div class="text-center mb-5">
                 <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
@@ -295,7 +296,7 @@ wp_login_form();
             <?php
             echo get_field('content_4');
             ?>
-            11
+
             <!-- </div> -->
             <!-- <h1>星際種子圖書館</h1>
             <div>
