@@ -328,7 +328,7 @@ wp_login_form();
     </div>
 
 
-    <div class="row align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
+    <div class="row login-hide align-items-center position-relative mt-lg-0 mt-md-5 mt-sm-5 mt-5 main-entrance">
 
         <div class="col-lg-4 col-md-12 col-md-12 col-12">
             <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/library-img.png"
