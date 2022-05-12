@@ -246,7 +246,7 @@ wp_login_form();
             <?php
             echo get_field('content_3');
             ?>
-            99
+            <!-- 99 -->
 
             <div class="text-center mb-5">
                 <a class="know-more-btn" href="<?php echo get_site_url();?>/cosmic-energy-meditation-content-1">
