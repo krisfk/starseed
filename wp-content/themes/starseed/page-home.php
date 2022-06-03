@@ -108,8 +108,8 @@ get_header(); ?>
             <a href="<?php echo get_site_url();?>/about-us" class="know-more-btn">了解更多</a>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
-            <img class="w-100 bosco-foto" src="<?php echo get_template_directory_uri();?>/assets/images/bosco-foto.png"
-                alt="">
+            <img class="w-100 bosco-foto"
+                src="<?php echo get_template_directory_uri();?>/assets/images/Pro-Pic-1-600x600.jpeg" alt="">
 
         </div>
 
