@@ -77,7 +77,7 @@ get_header(); ?>
 
         <div class="col-lg-6 col-md-12 col-sm-12 col-12 txt-top " id="form-top">
 
-            <h1>揚升之鑰
+            <h1>揚升聖殿
             </h1>
             <?php
                         if( !pms_is_member_of_plan( array( 178 ) ) ) 
