@@ -1540,6 +1540,12 @@ input[type='submit']:hover,
     margin-top: 0rem;
 }
 
+.single-post .content-txt-div img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .course-entry-div table {
     min-height: 350px;
 }
